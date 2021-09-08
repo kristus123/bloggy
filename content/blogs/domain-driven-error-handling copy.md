@@ -1,11 +1,10 @@
 ---
 title: domain-driven error-handling
 description: 'handling your shit is wack yo'
-tags: ['fruit', 'microservices']
+tags: ['fruit', 'clean code']
 coverImage: anime.png
 readButton: wow
 ---
-
 
 # eating ass when there is no ass to be eaten
 There are many ways of handling errors in a codebase, but it is also something which is definitely looked at as a second-class citizen.

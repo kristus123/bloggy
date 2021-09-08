@@ -2,13 +2,12 @@
     <div>
       <center class="my-5">
         <p class="grey--text ma-0 mb-2 pa-0">sort by tags</p>
-        <v-chip class="mx-4" dark v-for="tag in tags" v-bind:key="tag" :color="$store.state.tagSearches.tags.includes(tag) ? 'green darken-1' : 'grey'" @click="() => queryAfterTag(tag)">{{tag}}</v-chip>
+        <v-chip small class="mx-4" dark v-for="tag in tags" v-bind:key="tag" :color="$store.state.tagSearches.tags.includes(tag) ? 'green darken-1' : 'grey'" @click="() => queryAfterTag(tag)">{{tag}}</v-chip>
       </center>
 
           <v-row align="center" justify="center">
             
         <v-col cols="4" v-for="article in articles" v-bind:key='article.slug'>
-          <h1>ha {{article}}</h1>
           
           <v-card class="motion" max-width="400">
             
@@ -23,11 +22,11 @@
               <h2>{{article.title}}</h2>
             <p class="mt-4">{{article.description}}</p>
             <div class="mt-5 mb-4">
-              <v-chip dark :color="$store.state.tagSearches.tags.includes(tag) ? 'green darken-1' : 'grey'" class="mr-4" v-for="tag in article.tags" v-bind:key="tag">{{tag}}</v-chip>
+              <v-chip small dark :color="$store.state.tagSearches.tags.includes(tag) ? 'green darken-1' : 'grey lighten-1'" class="mr-4" v-for="tag in article.tags" v-bind:key="tag">{{tag}}</v-chip>
+            </div> 
             </div>
-            </div>
-            <center>
-              <v-btn small class="mb-4" dark :to="`blogs/${article.slug}`" color="blue darken-3">Read this anally adventure</v-btn>
+            <center class="pa-4">
+              <v-btn block dark :to="`blogs/${article.slug}`"  color="blue darken-1">{{article.readButton}}</v-btn>
             </center>
           </v-card>
         </v-col>
@@ -38,7 +37,7 @@
       <center class="mt-16">
         <p>showing blog post {{skip}}-{{skip + 50}}</p>
         <v-btn :disabled="skip == 0" @click="() => {skip -= 50; fetchBlogs()}">previous page</v-btn>
-        <v-btn :disabled="articles.length == 0" @click="() => {skip += 50; fetchBlogs()}">next page</v-btn>
+        <v-btn :disabled="articles.length <= 50" @click="() => {skip += 50; fetchBlogs()}">next page</v-btn>
       </center>
         
     </div>
@@ -59,7 +58,7 @@ export default {
 
     async fetchBlogs() {
     this.articles = await this.$content('blogs')
-        .only(['title', 'description', 'slug', 'tags', 'coverImage'])
+        .only(['title', 'description', 'slug', 'tags', 'coverImage', 'readButton',])
         .sortBy('createdAt', 'asc')
         .limit(50)
         .skip(this.skip)
@@ -72,7 +71,6 @@ export default {
       await this.fetchBlogs()
 
       if (this.$store.state.tagSearches.tags.length > 0) {
-        console.log("ANAL")
         this.articles = this.articles.filter(a => {
           for (tag of this.$store.state.tagSearches.tags) { 
             if (a.tags.includes(tag)) {
