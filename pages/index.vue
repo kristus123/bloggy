@@ -13,9 +13,3 @@
 
   </div>
 </template>
-
-
-
-<script>
-import "@/assets/css/nuxt-content.css";
-</script>
