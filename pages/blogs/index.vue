@@ -8,6 +8,7 @@
           <v-row align="center" justify="center">
             
         <v-col cols="4" v-for="article in articles" v-bind:key='article.path'>
+          <h1>ha {{article.path}}</h1>
           
           <v-card class="motion" max-width="400">
             

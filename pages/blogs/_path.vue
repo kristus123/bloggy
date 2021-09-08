@@ -8,12 +8,8 @@
 <script>
 export default {
   async asyncData ({ $content, route }) {
-    const page = await $content(`blogs/${route.params.path}`).fetch()
-
-
-
     return {
-      page
+      page: await $content(`blogs/${route.params.path}`).fetch()
     }
   }
 }
