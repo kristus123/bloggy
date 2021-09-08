@@ -8,6 +8,7 @@
 <script>
 export default {
   async asyncData ({ $content, params }) {
+    console.log(params.slug)
     return {
       page: await $content('blogs', params.slug).fetch()
     }
