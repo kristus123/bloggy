@@ -7,8 +7,8 @@
 
           <v-row align="center" justify="center">
             
-        <v-col cols="4" v-for="article in articles" v-bind:key='article.path'>
-          <h1>ha {{article.path}}</h1>
+        <v-col cols="4" v-for="article in articles" v-bind:key='article.slug'>
+          <h1>ha {{article}}</h1>
           
           <v-card class="motion" max-width="400">
             
@@ -27,7 +27,7 @@
             </div>
             </div>
             <center>
-              <v-btn small class="mb-4" dark :to="article.path" color="blue darken-3">Read this anally adventure</v-btn>
+              <v-btn small class="mb-4" dark :to="`blogs/${article.slug}`" color="blue darken-3">Read this anally adventure</v-btn>
             </center>
           </v-card>
         </v-col>
