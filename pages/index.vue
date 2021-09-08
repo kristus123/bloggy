@@ -1,56 +1,21 @@
 <template>
   <div>
     <center class="mt-4">
-      <h1>welcome</h1>
-      <p>My name is Kristian. I am pretty gay</p>
+      <h1 class="mb-4">My name is Kristian</h1>
+      <p class="mb-4">I own a <strong>plant</strong> <v-icon color="green" class="ml-0">mdi-flower</v-icon></p>
     </center>
-
-    <div class="center-screen">
-      <v-row align="center" justify="center" class="pa-0 ma-0">
-        <v-col cols="3" class="pa-0 ma-0">
-          <v-btn text x-large color="blue darken-2" dark to="/blogs"
+      <center class="mb-12 mt-12">
+        <v-btn text x-large color="blue darken-2" dark to="/blogs"
             >Read my words</v-btn
           >
-          <p class="grey--text">also called blog posts</p>
-        </v-col>
-      </v-row>
-    </div>
+          <p class="grey--text">also called <strong>blog posts</strong></p>
+      </center>
 
-    <center>
-      <v-row>
-        <v-col>
-          <p class="grey--text">
-            <span style="color: red">Gmail</span> sjekker jeg regelmessig 1-2
-            ganger for dagen
-          </p>
-          <h2>
-            <v-icon color="red" large class="mr-4">mdi-email-outline</v-icon
-            >krispetter@gmail.com
-          </h2>
-        </v-col>
-        <v-col>
-          <p class="grey--text mt-12">
-            <span style="color: #5865f2">Discord</span> bruker jeg mye i helgene
-          </p>
-          <h2>
-            <v-icon color="#5865F2" large class="mr-4">mdi-discord</v-icon
-            >Kristian ✓ᵛᵉʳᶦᶠᶦᵉᵈ#8297
-          </h2>
-        </v-col>
-      </v-row>
-    </center>
   </div>
 </template>
 
 
 
-
-<style scoped>
-.center-screen {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  min-height: 50vh;
-}
-</style>
+<script>
+import "@/assets/css/nuxt-content.css";
+</script>

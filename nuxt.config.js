@@ -9,7 +9,7 @@ export default {
   },
 
   googleAnalytics: {
-    // Options
+    id: 'G-962JJ3768X'
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -32,6 +32,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '~/assets/css/nuxt-content.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

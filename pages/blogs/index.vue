@@ -5,9 +5,10 @@
         <v-chip small class="mx-4" dark v-for="tag in tags" v-bind:key="tag" :color="$store.state.tagSearches.tags.includes(tag) ? 'green darken-1' : 'grey'" @click="() => queryAfterTag(tag)">{{tag}}</v-chip>
       </center>
 
-          <v-row align="center" justify="center">
+          <center>
+            <v-row align="center" justify="center" class="ma-0 pa-0">
             
-        <v-col cols="4" v-for="article in articles" v-bind:key='article.slug'>
+        <v-col xs="12" sm="12" md="6 " lg="4" xl="4" v-for="article in articles" v-bind:key='article.slug'>
           
           <v-card class="motion" max-width="400">
             
@@ -31,6 +32,7 @@
           </v-card>
         </v-col>
       </v-row>
+          </center>
       
 
 
