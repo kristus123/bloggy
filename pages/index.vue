@@ -1,6 +1,6 @@
 <template>
   <div>
-    <center class="mt-12">
+    <center class="mt-4">
       <h1>welcome</h1>
       <p>My name is Kristian. I am pretty gay</p>
     </center>

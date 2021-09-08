@@ -1,6 +1,5 @@
 <template>
     <div>
-
       <center class="my-5">
         <p class="grey--text ma-0 mb-2 pa-0">sort by tags</p>
         <v-chip class="mx-4" dark v-for="tag in tags" v-bind:key="tag" :color="$store.state.tagSearches.tags.includes(tag) ? 'green darken-1' : 'grey'" @click="() => queryAfterTag(tag)">{{tag}}</v-chip>
