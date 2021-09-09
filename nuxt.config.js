@@ -14,7 +14,7 @@ export default {
   },
 
   googleAnalytics: {
-    id: 'G-962JJ3768X'
+    id: '285676050'
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
