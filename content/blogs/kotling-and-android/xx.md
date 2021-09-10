@@ -3,7 +3,6 @@ Let, Also, Apply, Run, With - Kotlin Scope Functions
 private var number: int? = null; // this will compile
 private var number: int = null;  // this will NOT compile
 
-
 let's say we have the following instance variable
 
 private var number: int? = null;
