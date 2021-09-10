@@ -5,12 +5,12 @@ export default {
   target: 'static',
 
   generate: {
-    crawler: true,
     async routes () {
       const { $content } = require('@nuxt/content')
-      const blogRoutes = await $content('blogs').only(['slug']).fetch()
-      return blogRoutes.map(myroute => myroute.slug === '/index' ? '/' : '/blogs/' + myroute.slug)
-    },
+      const files = await $content({ deep: true }).only(['path']).fetch()
+
+      return files.map(file => file.path === '/index' ? '/' : file.path)
+    }
   },
 
   googleAnalytics: {
