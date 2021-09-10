@@ -11,7 +11,7 @@ if you do
 
 ```java
 if (number != null) {
-log(number + 1)  // this will not compile
+    log(number + 1)  // this will not compile
 }
 ```
 
