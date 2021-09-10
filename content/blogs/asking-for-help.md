@@ -1,0 +1,1 @@
+asking for help is probbaly the smartest thing you can ever do in your life.

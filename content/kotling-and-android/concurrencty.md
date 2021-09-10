@@ -1,6 +1,23 @@
-a Coroutine is async {...} and launch{...}
+a coroutine is async {...} and launch{...}
 
 suspended methods are used to make response async with livedata
+
+```
+fun main() = runBlocking { // this: CoroutineScope - runBlocking makes it possible for the world of normal methods and suspended methods to live in harmony
+    launch { // launch a new coroutine and continue (this only exists within the CoroutineScope)
+        delay(1000L) // non-blocking delay for 1 second (default time unit is ms) (this does not block the underlyig thread made by runBlocking)
+        println("World!") // print after delay
+    }
+    println("Hello") // main coroutine continues while a previous one is delayed
+}
+```
+It will print the following
+```bash
+Hello
+World!
+```
+
+
 
 
 ```
