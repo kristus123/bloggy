@@ -1,6 +1,11 @@
 <template>
   <div class="mt-12">
     <center>
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
       <v-row align="center" justify="center" class="ma-0 pa-0">
         <v-col
           xs="12"
@@ -17,7 +22,9 @@
               <p class="mt-4">{{ category.description }}</p>
             </div>
             <center class="pa-4">
-              <v-btn block dark :to="category.path" color="blue darken-1">Read More!</v-btn>
+              <v-btn block dark :to="category.path" color="blue darken-1"
+                >Read More!</v-btn
+              >
             </center>
           </v-card>
         </v-col>
@@ -28,9 +35,26 @@
 
 <script>
 export default {
+
   data() {
     return {
-      categories: [{ title: "blogger", description: 'here i write about philosophy and theory', path: "content/blogs" }],
+      categories: [
+        {
+          title: "blogger",
+          description: "here i write about philosophy and theory",
+          path: "/content/blogs",
+        },
+        {
+          title: "Java",
+          description: "here i write about philosophy and theory",
+          path: "/content/blogs",
+        },
+        {
+          title: "Kotlin",
+          description: "here i write about philosophy and theory",
+          path: "/content/blogs",
+        },
+      ],
     };
   },
 };
