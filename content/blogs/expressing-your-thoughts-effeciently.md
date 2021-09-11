@@ -14,9 +14,10 @@ When there are 100 things to take in, you should focus on 1 thing a time. It is 
 
 When too much info is given at one time, they will simply nod and agree to avoid getting loaded with even more info when they ask their questions.
 
+## What to do when others blast you with information baked into lots of noise
 
-When you are in the position where people overwhelm you with information, you should let them know, and suggest to take one thing at a time only.
-The goal of communication is not to waste somebody´s time, but rather deliver your message as effeciently as possible.
+When you are in the position where people overwhelm you with information, you should let them know, and suggest to take one thing at a time.
+The goal of communication is not to waste somebody's time, but rather deliver your message as effeciently as possible.
 
 Sitting idle doing nothing will not solve any problem.
 

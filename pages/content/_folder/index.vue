@@ -110,7 +110,7 @@ export default {
 
   methods: {
     async fetchBlogs() {
-      this.articles = await this.$content(this.$route.params.folder)
+      this.articles = await this.$content(this.$route.params.folder, {deep: true})
         .only([
           "title",
           "description",
@@ -119,7 +119,7 @@ export default {
           "coverImage",
           "readButton",
         ])
-        .sortBy("createdAt", "asc")
+        .sortBy("createdAt", "desc")
         .limit(50)
         .skip(this.skip)
         .fetch();
