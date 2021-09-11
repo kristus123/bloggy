@@ -23,7 +23,7 @@ btn.setOnClickListener {
 override fun onCreate(...) { // OtherActivity.kotlin
     ...
 
-    val person = intent.getSerializableExtra("PERSON") as Person
+    val person = intent.getSerializableExtra("PERSON") as Person // cast Serializable object to Person
 }
 ```
 
