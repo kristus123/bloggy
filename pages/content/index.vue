@@ -1,10 +1,8 @@
 <template>
   <div class="mt-12">
     <center>
-      <nav>
-        <ul>
-        </ul>
-      </nav>
+      <div>
+        <TextTitle title="Various articles" />
 
       <v-row align="center" justify="center" class="ma-0 pa-0">
         <v-col
@@ -29,6 +27,7 @@
           </v-card>
         </v-col>
       </v-row>
+      </div>
     </center>
   </div>
 </template>
@@ -39,6 +38,11 @@ export default {
   data() {
     return {
       categories: [
+        {
+          title: "All posts",
+          description: "All combined in a big mush",
+          path: "/content/all",
+        },
         {
           title: "Blog",
           description: "Here I write about different topics not focused on specific languages",

@@ -4,7 +4,7 @@
       <v-text-field
       style="max-width:50rem;"
       class="mx-10 mb-10"
-      :placeholder="`Search through all ${$route.params.folder != null ? $route.params.folder : 'all'} posts here`"
+      :placeholder="`Search through all ${$route.params.folder} posts here`"
       filled
       v-model="query"
       type="search"
@@ -21,13 +21,17 @@ export default {
   props: ['folder'],
   data() {
     return {
-      query: null,
+      query: '',
       articles: [],
     };
   },
-  methods: {
-    async fetchBlogs() {
-      this.articles = await this.$content(this.folder, { deep: true })
+
+  watch: {
+    async query(query) {
+      if (query == null || query == '') {
+        this.articles = []
+      } else {
+        this.articles = await this.$content(this.folder == 'all' ? null : this.folder, { deep: true })
         .only([
           "title",
           "description",
@@ -38,19 +42,13 @@ export default {
           "readButton",
         ])
         .sortBy("createdAt", "asc")
+        .search(this.query)
         .limit(50)
-        .search(this.query != "" ? this.query : null)
         .skip(0) // todo reimplement
         .fetch()
-    }
-  },
-  watch: {
-    async query(query) {
-      this.fetchBlogs()
+      }
     },
   },
-  beforeMount() {
-    this.fetchBlogs()
-  }
+
 };
 </script>
