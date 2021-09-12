@@ -47,12 +47,12 @@ export default {
         {
           title: "Java",
           description: "here i write about philosophy and theory",
-          path: "/content/blogs",
+          path: "/content/java",
         },
         {
           title: "Kotlin",
           description: "here i write about philosophy and theory",
-          path: "/content/blogs",
+          path: "/content/kotlin",
         },
       ],
     };

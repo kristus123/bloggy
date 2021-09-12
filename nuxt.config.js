@@ -5,7 +5,7 @@ export default {
   target: 'static',
 
   generate: {
-    async routes () {
+    async routes() {
       const { $content } = require('@nuxt/content')
       const files = await $content({ deep: true }).only(['path']).fetch()
 
@@ -84,8 +84,9 @@ export default {
     defaultAssets: {
       font: {
         family: 'Azeret Mono'
-    }},
-    
+      }
+    },
+
     theme: {
       dark: false,
       themes: {

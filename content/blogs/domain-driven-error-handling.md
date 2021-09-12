@@ -1,9 +1,11 @@
 ---
+
 title: domain-driven error-handling
 description: 'handling your shit is wack yo'
 tags: ['fruit', 'microservices']
 coverImage: anime.png
 readButton: wow
+pathPrefix: blogs
 ---
 
 
