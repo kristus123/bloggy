@@ -11,5 +11,7 @@
           <p class="grey--text">also called <strong>blog posts</strong></p>
       </center>
 
+      <SearchArticle :folder="null" />
+
   </div>
 </template>

@@ -4,7 +4,7 @@
       <v-text-field
       style="max-width:50rem;"
       class="mx-10 mb-10"
-      :placeholder="`Search through all ${$route.params.folder} posts here`"
+      :placeholder="`Search through all ${$route.params.folder != null ? $route.params.folder : 'all'} posts here`"
       filled
       v-model="query"
       type="search"
