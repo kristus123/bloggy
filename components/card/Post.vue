@@ -11,19 +11,6 @@
               <h2>{{ article.title }}</h2>
               <p class="mt-4">{{ article.description }}</p>
               <div class="mt-5 mb-4">
-                <v-chip
-                  small
-                  dark
-                  :color="
-                    $store.state.tagSearches.tags.includes(tag)
-                      ? 'green darken-1'
-                      : 'grey lighten-1'
-                  "
-                  class="mr-4"
-                  v-for="tag in article.tags"
-                  v-bind:key="tag"
-                  >{{ tag }}</v-chip
-                >
               </div>
             </div>
             <center class="pa-4">

@@ -10,47 +10,16 @@
         v-for="article in articles"
         v-bind:key="article.slug"
       >
-      {{article}}
+        {{ article }}
         <CardPost :article="article" />
       </v-col>
     </v-row>
-    <div v-if="articles != 0">
-      <center class="mt-16">
-        <p>showing blog post {{ skip }}-{{ skip + 50 }}</p>
-        <v-btn
-          :disabled="skip == 0"
-          @click="
-            () => {
-              skip -= 50;
-              fetchBlogs();
-            }
-          "
-          >previous page</v-btn
-        >
-        <v-btn
-          :disabled="articles.length <= 50"
-          @click="
-            () => {
-              skip += 50;
-              fetchBlogs();
-            }
-          "
-          >next page</v-btn
-        >
-      </center>
-    </div>
   </center>
 </template>
 
 <script>
 export default {
   props: ["articles"],
-
-  data() {
-    return {
-      skip: 0,
-    };
-  },
 };
 </script>
 

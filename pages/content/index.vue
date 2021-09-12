@@ -40,18 +40,18 @@ export default {
     return {
       categories: [
         {
-          title: "blogger",
-          description: "here i write about philosophy and theory",
+          title: "Blog",
+          description: "Here I write about different topics not focused on specific languages",
           path: "/content/blogs",
         },
         {
           title: "Java",
-          description: "here i write about philosophy and theory",
+          description: "Here I write about Java",
           path: "/content/java",
         },
         {
           title: "Kotlin",
-          description: "here i write about philosophy and theory",
+          description: "Here I write about Kotlin",
           path: "/content/kotlin",
         },
       ],

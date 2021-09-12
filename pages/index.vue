@@ -11,7 +11,5 @@
           <p class="grey--text">also called <strong>blog posts</strong></p>
       </center>
 
-    <SearchArticle />
-
   </div>
 </template>
