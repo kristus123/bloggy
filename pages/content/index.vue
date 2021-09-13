@@ -1,11 +1,12 @@
 <template>
-  <div class="mt-12">
+  <div>
     <center>
       <div>
         <TextTitle title="Various articles" />
 
       <v-row align="center" justify="center" class="ma-0 pa-0">
         <v-col
+        class="ma-12"
           xs="12"
           sm="12"
           md="6 "
@@ -14,13 +15,13 @@
           v-for="category in categories"
           v-bind:key="category"
         >
-          <v-card class="motion" max-width="400">
+          <v-card :color="category.color" :class="`motion ${category.class}`" max-width="400">
             <div class="pa-4">
               <h2>{{ category.title }}</h2>
               <p class="mt-4">{{ category.description }}</p>
             </div>
             <center class="pa-4">
-              <v-btn block dark :to="category.path" color="blue darken-1"
+              <v-btn block outlined dark :to="category.path" color="white"
                 >Read More!</v-btn
               >
             </center>
@@ -42,21 +43,29 @@ export default {
           title: "All posts",
           description: "All combined in a big mush",
           path: "/content/all",
+          color: "light-green darken-3",
+          class: "white--text", 
         },
         {
           title: "Blog",
-          description: "Here I write about different topics not focused on specific languages",
+          description: "Here I write about different topics",
           path: "/content/blogs",
+          color: "red",
+          class: "white--text", 
         },
         {
           title: "Java",
           description: "Here I write about Java",
           path: "/content/java",
+          color: "brown lighten-1",
+          class: "white--text", 
         },
         {
           title: "Kotlin",
           description: "Here I write about Kotlin",
           path: "/content/kotlin",
+          color: "blue darken-1",
+          class: "white--text", 
         },
       ],
     };

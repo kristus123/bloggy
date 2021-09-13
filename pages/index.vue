@@ -6,13 +6,38 @@
 
       <p class="mb-4">I have a <strong>plant</strong> <v-icon color="green" class="ml-0">mdi-flower</v-icon></p>
     </center>
-      <center class="mb-12 mt-12">
-        <v-btn text x-large color="blue darken-2" dark to="/content"
-            >Read my words</v-btn
+    <div>
+<v-row align="center"
+      justify="center" co>
+      <v-col sm="12" md="6" lg="6" xl="3"  cols="6" v-for="page in pages" v-bind:key="page.title" class="mb-12 mt-12">
+        <center>
+                 <v-btn text x-large color="blue darken-2" dark :to="page.to"
+            >{{page.title}}</v-btn
           >
-          <p class="grey--text">also called <strong>blog posts</strong></p>
+          <p class="grey--text">{{page.description}}</p> 
       </center>
+
+      </v-col>
+    </v-row>
+    </div>
+    
+      
 
 
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      pages: [
+        {title: 'Read my words', description: 'also called blog posts', to: '/content'},
+        {title: 'my projects', description: 's', to: '/cv/projects'},
+        {title: 'Where have i worked?', description: 's', to: '/cv/jobs'},
+        {title: 'Certificates', description: 's', to: '/cv/certificates'},
+      ]
+    }
+  }
+}
+</script>
