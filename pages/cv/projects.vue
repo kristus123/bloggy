@@ -1,7 +1,7 @@
 <template>
   <v-row>
       <v-col cols="3">
-        <MoreDetails
+        <CvProjects
           title="Cspot"
           description="Utvikling av ønskede tjenester"
           imageUrl="https://coincentral.com/wp-content/uploads/2017/08/ethereum.png"
@@ -42,13 +42,13 @@
             >Presentasjon</a>
             for å snakke om dette prosjektet, da source-koden ikke var mulig for meg å beholde
           </p>
-        </MoreDetails>
+        </CvProjects>
 
         <!-- men som ikke hadde mulighet til å kommunisere med en database.  -->
       </v-col>
 
       <v-col cols="3">
-        <MoreDetails
+        <CvProjects
           title="Homepo"
           description="En saas-tjeneste"
           amountOfMonths="Pågående"
@@ -78,11 +78,11 @@
           <p
             class="text-left title"
           >De fleste sparer $500-1000 i måneden, og jeg har 5 aktive brukere.</p>
-        </MoreDetails>
+        </CvProjects>
       </v-col>
 
       <v-col cols="3">
-        <MoreDetails
+        <CvProjects
           title="Lær kidsa koding"
           amountOfMonths="3 dager hvert år"
           yearFromTo="2019-"
@@ -102,11 +102,11 @@
             class="text-left"
           >Jeg ser på dette kurset som en fin måte for meg å både lære de hva programmering egentlig innebærer, men også gi de muligheten for å tidlig finne ut om dette er noe de muligens har lyst til å jobbe videre med eller jobbe fulltid med.</p>
           <p class="text-left title">Kurset er for ungdommer mellom 13-17.</p>
-        </MoreDetails>
+        </CvProjects>
       </v-col>
 
       <v-col cols="3">
-        <MoreDetails
+        <CvProjects
           title="Orange money"
           description="Automatisering"
           amountOfMonths="4 måneder"
@@ -120,11 +120,11 @@
           <p
             class="text-left"
           >Jeg må grave litt i meldinger for å finne ut hva jeg gjorde, men det var automatisering av repetetive oppgaver, og overvåkning av databasen.</p>
-        </MoreDetails>
+        </CvProjects>
       </v-col>
 
       <v-col cols="3">
-        <MoreDetails
+        <CvProjects
           title="Accellerlist.com"
           description="Videreutviklet API"
           imageUrl="https://i.gyazo.com/2bb135d032766493b5dfb7c3bba84bf5.png"
@@ -135,11 +135,11 @@
             <a href="https://www.accelerlist.com/" target="_blaank">Accelerlist</a>
           </p>
           <p class="text-left">Refaktorering og testing av gammel kodebase</p>
-        </MoreDetails>
+        </CvProjects>
       </v-col>
 
       <v-col cols="3">
-        <MoreDetails
+        <CvProjects
           title="3gProxy"
           amountOfMonths="Pågående"
           yearFromTo="2017-"
@@ -161,11 +161,11 @@
               target="_blank"
             >3gProxy</a> og det norske mobiloperatør markedet
           </p>
-        </MoreDetails>
+        </CvProjects>
       </v-col>
 
       <v-col cols="3">
-        <MoreDetails
+        <CvProjects
           title="Loop ai labs"
           description="ANAL"
           :technologyUsed="['kake', 'nam']"
@@ -173,34 +173,34 @@
         >
           I dette prosjektet var målet å konvertere norske setninger og ord til noe som en datamaskin kunne forstå. Konsulenten brukte diverse python-bibliotek som NLTK (Natural language toolkit) og Scikit. Her klarte Kristian å overraske dem som ønsket dette gjort. De forventet at 50-60% av dataen ville bli suksessfullt, men han klarte å få til 80-90% av dataen som ble prosessert.
           Setningene skulle bli sortert i forskjellige kategorier, som f.eks; Butikker, verb, substantiv. Setningene skulle bli separert og deretter kategorisert
-        </MoreDetails>
+        </CvProjects>
       </v-col>
 
       <v-col cols="3">
-        <MoreDetails
+        <CvProjects
           title="Ticket-system"
           description="Askøy Kommune"
           :technologyUsed="['kake', 'nam']"
           imageUrl="https://www.kslaring.no/local/course_page/pluginfile.php/630825/course/homesummary/AK_logo_hvit_kvadrat.png"
-        >Under fagprøven Lagde Kristian et responsivt og "lett å bruke" system for både teknikerne og brukerne. Inspirasjonen var fra Ticket-systemet som var i bruk i Kommunen, som Kristian mente ikke var et produktivt verktøy, og som han så mange forbedringer i.</MoreDetails>
+        >Under fagprøven Lagde Kristian et responsivt og "lett å bruke" system for både teknikerne og brukerne. Inspirasjonen var fra Ticket-systemet som var i bruk i Kommunen, som Kristian mente ikke var et produktivt verktøy, og som han så mange forbedringer i.</CvProjects>
       </v-col>
 
       <v-col cols="3">
-        <MoreDetails
+        <CvProjects
           title="Hack the crisis"
           description="Sammen med Experis"
           :technologyUsed="['Gode ideer', 'system architecture']"
           imageUrl="https://www.ks.no/imagevault/publishedmedia/5pd9nihordk1g3azg7mn/HackCrisis.jpg"
-        >Fyll inn mer info her</MoreDetails>
+        >Fyll inn mer info her</CvProjects>
       </v-col>
 
       <v-col cols="3">
-        <MoreDetails
+        <CvProjects
           title="Krypto mining"
           description="Sammen med en venn"
           :technologyUsed="['Gode ideer', 'system architecture']"
           imageUrl="https://lh3.googleusercontent.com/GgW2ocv_0UkD1Lx4VzsKfCkJx0RkZDtpqeXjdVU73nKV6Bsm70qTWum_89iOyU91RZ9Lm69vxmXxZEknb56lvU1s_7Wbpap5EAPj1pLqI4DyXYzr1aNlz88s93DQR2FqAuDXXWlwz99Ac5tPvXGxWPWs3lXTQ2dDNuCKcpjJmPV8cs_QR5ngWYpJP-lCkswO0Tni2LFeie48h7AEAXBHzHclSB48i0wyl0sbp8OozeWkl_00YhdxQW_F0tgMvcMvCbz0mxPQnYVy-z0uEunYn-fS1pXZQNZ0tPCFj00FxA0wtix4qZXsUpBG1ciSgiG6437S-k-sYREdoFp2bnOzjGRO3kqm6e1wuVu_nWpRuTx72Ybw0Bao8tMV_GCBKcidjiaoIntOicdrdfAsJOuzIX14QpwveRcSM1E6vR0vqmmvsgT4XGfxsmDq0DRxNcOIwV4Rt1Mjf5USnSiCfPLIwFGlNewpbapucsYRDNV1TFevKlasK6zYB75HaqJawCqalpPwcgmeUVlvcOd__X__EQ8WIIwrJPeSqMNWU7yOqJLEbkCiT4Ko4oZ9gUi6zMS-QKDNqMe20LCe1JrgvQ3RgAA2DjzColYRBtDFUoni2xI6XsR-46iObd1gvtjol0k5r4vhkF9TdpvyXFZwsoRz4GIYWQdtyVlyR6nCj5uDQsFC6pIKzhvGbCx1dt6xNU9Hsg81im92FlsSwtly4W6qM9jf3Yh2qe6Ks3cOh6SsF_s3IDC3S1I9Rw=w1240-h926-no"
-        >Krypto mining. 40 skjermkort. masse spenning og moro. Veldig lærerikt. Fiks opp her. Skriv skikeklig</MoreDetails>
+        >Krypto mining. 40 skjermkort. masse spenning og moro. Veldig lærerikt. Fiks opp her. Skriv skikeklig</CvProjects>
       </v-col>
     </v-row>
 </template>
