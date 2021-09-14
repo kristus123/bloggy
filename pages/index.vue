@@ -11,9 +11,12 @@
       justify="center" co>
       <v-col sm="12" md="6" lg="6" xl="3"  cols="6" v-for="page in pages" v-bind:key="page.title" class="mb-12 mt-12">
         <center>
-                 <v-btn text x-large color="blue darken-2" dark :to="page.to"
+          <nuxt-link :to="page.to">
+              <v-btn text x-large color="blue darken-2" dark
             >{{page.title}}</v-btn
           >
+          </nuxt-link>
+                 
           <p class="grey--text">{{page.description}}</p> 
       </center>
 

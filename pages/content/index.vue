@@ -21,9 +21,12 @@
               <p class="mt-4">{{ category.description }}</p>
             </div>
             <center class="pa-4">
-              <v-btn block outlined dark :to="category.path" color="white"
+              <nuxt-link :to="category.path">
+<v-btn block outlined dark  color="white"
                 >Read More!</v-btn
               >
+              </nuxt-link>
+              
             </center>
           </v-card>
         </v-col>
