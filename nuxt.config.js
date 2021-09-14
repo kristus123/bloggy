@@ -5,7 +5,7 @@ export default {
   target: 'static',
 
   publicRuntimeConfig: {
-    telegramBotApiKey: process.env.TELEGRAM_BOT_API_KEY || "bot876254288:AAG_0vP5LjbpfXrkqMI4X6npOun0NnBOgo0"
+    telegramBotApiKey: process.env.TELEGRAM_BOT_API_KEY
   },
   privateRuntimeConfig: {
     telegramBotApiKey: "bot876254288:AAG_0vP5LjbpfXrkqMI4X6npOun0NnBOgo0"
