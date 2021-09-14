@@ -11,8 +11,17 @@
       autocomplete="off"
     ></v-text-field>
     </center>
-    
+    <center>
+      <v-progress-circular
+      v-if="articles == null"
+      :size="300"
+      :width="1"
+      color="blue"
+      indeterminate
+    ></v-progress-circular>
+    </center>
       <DisplayPosts :articles="articles" />
+      
   </div>
 </template>
 
@@ -22,7 +31,7 @@ export default {
   data() {
     return {
       query: 'beforeMount',
-      articles: [],
+      articles: null,
     };
   },
 

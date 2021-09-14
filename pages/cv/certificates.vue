@@ -8,20 +8,9 @@
 
         <v-col cols="4">
           <CvEffort
-            title="Det viktigste av alt"
+            title="studering på fritid"
             imageUrl="https://i.gyazo.com/052b88565ff49685dffe182bc0254ead.jpg"
           >
-          <h1>Min interesse</h1>
-          <p class="mt-4">Det viktigste er interessen man har for å oppnå det man ønsker</p>
-
-          <p class="mt-8">
-            Jeg føler meg svært heldig for å ha muligheten til å kunne jobbe med noe jeg liker <strong>ekstremt</strong> godt å jobbe med
-          </p>
-
-          <p class="mt-8">
-            I tillegg til at jeg ønsker å gjøre en god jobb, og jeg har som mål å bli en "software engineer" i <strong>verdensklasse</strong>
-          </p>
-
           </CvEffort>
         </v-col>
 

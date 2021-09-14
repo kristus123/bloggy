@@ -33,9 +33,9 @@ export default {
     return {
       pages: [
         {title: 'Read my words', description: 'also called blog posts', to: '/content'},
-        {title: 'my projects', description: 's', to: '/cv/projects'},
-        {title: 'Where have i worked?', description: 's', to: '/cv/jobs'},
-        {title: 'Certificates', description: 's', to: '/cv/certificates'},
+        {title: 'my projects', description: 'Fancy things', to: '/cv/projects'},
+        {title: 'Where have i worked?', description: 'and what did i do there', to: '/cv/jobs'},
+        {title: 'Certificates', description: 'Indeed I have nerded hard', to: '/cv/certificates'},
       ]
     }
   }
