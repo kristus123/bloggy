@@ -19,13 +19,21 @@
                  
           <p class="grey--text">{{page.description}}</p> 
       </center>
-
       </v-col>
     </v-row>
     </div>
     
       
+<center class="mt-16">
+      <v-icon size="50" color="red darken-2">mdi-yin-yang</v-icon >
+      <p class="grey--text">Thank you for visiting my site</p>
+</center>
 
+<center class="ma-16">
+  <hr style="max-width:50%" >
+</center>
+
+<SubscribeJoin />
 
   </div>
 </template>

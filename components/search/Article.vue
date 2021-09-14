@@ -36,30 +36,34 @@ export default {
   },
 
   beforeMount() {
-    this.query = null
+    this.query = this.$route.query.search
   },
 
   watch: {
     async query(query) {
-    
-      this.articles = await this.$content(this.folder == 'all' ? null : this.folder, { deep: true })
-      .only([
-        "title",
-        "description",
-        "pathPrefix",
-        "slug",
-        "tags",
-        "coverImage",
-        "readButton",
-      ])
-      .sortBy("createdAt", "asc")
-      .search(this.query)
-      .limit(50)
-      .skip(0) // todo reimplement
-      .fetch()
-      
+      this.fetchArticles()
     },
   },
+
+  methods: {
+    async fetchArticles() {
+      this.articles = await this.$content(this.folder == 'all' ? null : this.folder, { deep: true })
+            .only([
+              "title",
+              "description",
+              "pathPrefix",
+              "slug",
+              "tags",
+              "coverImage",
+              "readButton",
+            ])
+            .sortBy("createdAt", "asc")
+            .search(this.query)
+            .limit(50)
+            .skip(0) // todo reimplement
+            .fetch()
+    }
+  }
 
 };
 </script>

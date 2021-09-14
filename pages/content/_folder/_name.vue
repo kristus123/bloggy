@@ -1,10 +1,16 @@
 <template>
-  <article>
+  <article class="">
     <center>
-      <h1 class="mb-8 mt-4 display-4 font-weight-thin">{{ page.title }}</h1>
-      <p class="grey--text mb-12">{{page.description}}</p>
+      <TextTitle :title="page.title" />
+      <p class="grey--text mb-2">{{page.description}}</p>
+      <p class="mt-4 grey--text font-weight-thin">
+        {{new Date(page.createdAt).toLocaleString("default", {month: "long"})}} - {{new Date(page.createdAt).getFullYear()}}
+      </p>
     </center>
     <nuxt-content :document="page" />
+      <center style="margin-top:20vh;">
+        <v-img :src="page.coverImage"></v-img>
+      </center>
   </article>
 </template>
 

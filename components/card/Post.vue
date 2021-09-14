@@ -2,7 +2,7 @@
   <v-card class="motion" max-width="400">
             <v-img
               height="10"
-              :src="`/${article.coverImage}`"
+              :src="`${article.coverImage}`"
               class="pa-9 align-end"
               min-height="300"
             />

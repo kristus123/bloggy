@@ -10,7 +10,6 @@
         v-for="article in articles"
         v-bind:key="article.slug"
       >
-        {{ article }}
         <CardPost :article="article" />
       </v-col>
     </v-row>
