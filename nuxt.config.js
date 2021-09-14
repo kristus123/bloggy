@@ -4,6 +4,13 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  publicRuntimeConfig: {
+    telegramBotApiKey: process.env.TELEGRAM_BOT_API_KEY || "bot876254288:AAG_0vP5LjbpfXrkqMI4X6npOun0NnBOgo0"
+  },
+  privateRuntimeConfig: {
+    telegramBotApiKey: "bot876254288:AAG_0vP5LjbpfXrkqMI4X6npOun0NnBOgo0"
+  },
+
   generate: {
     async routes() {
       const { $content } = require('@nuxt/content')
