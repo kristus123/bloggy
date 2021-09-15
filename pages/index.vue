@@ -7,9 +7,10 @@
       <p class="mb-4">I have a <strong>plant</strong> <v-icon color="green" class="ml-0">mdi-flower</v-icon></p>
     </center>
     <div>
+      
 <v-row align="center"
-      justify="center" co>
-      <v-col sm="12" md="6" lg="6" xl="3"  cols="6" v-for="page in pages" v-bind:key="page.title" class="mb-12 mt-12">
+      justify="center">
+      <v-col xs="12" md="6" lg="6" xl="3" cols="12" v-for="page in pages" v-bind:key="page.title" class="mb-12 mt-12">
         <center>
           <nuxt-link :to="page.to">
               <v-btn text x-large color="blue darken-2" dark
@@ -24,16 +25,20 @@
     </div>
     
       
-<center class="mt-16">
-      <v-icon size="50" color="red darken-2">mdi-yin-yang</v-icon >
-      <p class="grey--text">Thank you for visiting my site</p>
-</center>
+
+
+
+<SubscribeJoin />
 
 <center class="ma-16">
   <hr style="max-width:50%" >
 </center>
 
-<SubscribeJoin />
+
+<center class="mt-16">
+      <v-icon size="50" color="red darken-2">mdi-yin-yang</v-icon >
+      <p class="grey--text">Thank you for visiting my site</p>
+</center>
 
   </div>
 </template>

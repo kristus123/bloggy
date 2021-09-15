@@ -7,9 +7,9 @@
         {{new Date(page.createdAt).toLocaleString("default", {month: "long"})}} - {{new Date(page.createdAt).getFullYear()}}
       </p>
     </center>
-    <nuxt-content :document="page" />
-      <center style="margin-top:20vh;">
-        <v-img :src="page.coverImage"></v-img>
+    <nuxt-content  :document="page" />
+      <center style="margin-top:10vh;">
+        <v-img max-width="40rem" max-height="40rem" :src="page.coverImage"></v-img>
       </center>
   </article>
 </template>
