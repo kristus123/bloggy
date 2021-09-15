@@ -4,7 +4,7 @@ description: Quick and simple solution
 tags: ["android studio", 'kotlin']
 coverImage: https://www.pngrepo.com/download/303617/kotlin-1-logo.png
 readButton: Read more
-pathPrefix: blogs
+pathPrefix: kotlin
 readable: true
 ---
 
