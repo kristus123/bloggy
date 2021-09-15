@@ -59,11 +59,10 @@ export default {
             ])
             .sortBy("createdAt", "asc")
             .search(this.query)
+            .where({readable: {$eq: true}})
             .limit(50)
             .skip(0) // todo reimplement
             .fetch()
-
-        this.articles = this.articles.filter(a => a.pathPrefix != null) // todo fix when ready to open up
     }
   }
 

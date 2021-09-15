@@ -5,6 +5,7 @@ tags: ['design', "implementation", 'architecture']
 coverImage: /anime.png
 readButton: Curious?
 pathPrefix: blogs
+readable: true
 ---
 
 In chaos there is order, and in order exists chaos.
