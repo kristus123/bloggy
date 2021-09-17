@@ -16,7 +16,12 @@
 
 <script>
 export default {
-  async asyncData ({ $content, params }) {
+
+  mounted() {
+    this.$gtag.event('read_article', { method: 'Google' })
+  },
+
+  async asyncData ({ $content, params, }) {
     return {
       page: await $content(params.folder, params.name).fetch()
     }
