@@ -1,7 +1,6 @@
 import colors from 'vuetify/es5/util/colors'
 
 export default {
-  // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   ssr: true,
 
@@ -21,19 +20,7 @@ export default {
       const { $content } = require('@nuxt/content')
       const files = await $content({ deep: true }).only(['path']).fetch()
 
-
-      for (const x of files) {
-        console.log(x)
-      }
-
       return files.map(file => file.path === '/index' ? '/' : `/content${file.path}`)
-
-      return axios.get('https://your-wordpress-api/')
-        .then((res) => {
-          return res.data.map((page) => {
-            let route = '/whatever/you/like/' + page.slug
-          })
-        })
     }
   },
 
