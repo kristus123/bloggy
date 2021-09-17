@@ -21,7 +21,19 @@ export default {
       const { $content } = require('@nuxt/content')
       const files = await $content({ deep: true }).only(['path']).fetch()
 
-      return files.map(file => file.path === '/index' ? '/' : file.path)
+
+      for (const x of files) {
+        console.log(x)
+      }
+
+      return files.map(file => file.path === '/index' ? '/' : `/content${file.path}`)
+
+      return axios.get('https://your-wordpress-api/')
+        .then((res) => {
+          return res.data.map((page) => {
+            let route = '/whatever/you/like/' + page.slug
+          })
+        })
     }
   },
 
