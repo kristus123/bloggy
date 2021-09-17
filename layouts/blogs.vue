@@ -1,33 +1,7 @@
 <template>
   <v-app>
-    <v-main >
-      <v-card
-    color="grey lighten-4"
-    flat
-    tile
-  >
-    <v-toolbar dense color="orange darken-2">
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
-
-      <v-toolbar-title>Title</v-toolbar-title>
-
-      <v-spacer></v-spacer>
-
-      <v-btn icon>
-        <v-icon>mdi-magnify</v-icon>
-      </v-btn>
-
-      <v-btn icon>
-        <v-icon>mdi-heart</v-icon>
-      </v-btn>
-
-      <v-btn icon>
-        <v-icon>mdi-dots-vertical</v-icon>
-      </v-btn>
-    </v-toolbar>
-  </v-card>
-      <v-container>
-        
+    <v-main class="bg-image">
+      <v-container style="max-width: 70rem">
         <Nuxt />
       </v-container>
     </v-main>
@@ -35,11 +9,19 @@
 </template>
 
 <script>
+import image from "assets/wallpaper.jpg";
+
 export default {
-  data () {
+  data() {
     return {
-      
-    }
-  }
-}
+      image: image,
+    };
+  },
+};
 </script>
+
+<style scoped>
+.bg-image {
+  
+}
+</style>

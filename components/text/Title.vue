@@ -1,6 +1,6 @@
 <template>
   <center>
-      <h1 style="font-size:3.5rem;" class="mb-2 mt-4 font-weight-thin">{{ title }}</h1>
+      <h1 style="font-size:3rem;" class="mb-2 font-weight-thin">{{ title }}</h1>
   </center>
 </template>
 
