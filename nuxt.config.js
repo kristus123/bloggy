@@ -5,6 +5,10 @@ export default {
   target: 'static',
   ssr: false,
 
+  generate: {
+    fallback: true
+  },
+
   publicRuntimeConfig: {
     telegramBotApiKey: process.env.TELEGRAM_BOT_API_KEY
   },
