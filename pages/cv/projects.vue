@@ -1,6 +1,8 @@
 <template>
-  <v-row>
-      <v-col cols="3">
+  <div>
+    <TextTitle title="Some projects i have been working on" />
+    <v-row>
+      <v-col :md="12" :xs="12" :sm="12" :xl="6" :lg="6" :cols="12">
         <CvProjects
           title="Cspot"
           description="Utvikling av ønskede tjenester"
@@ -20,18 +22,17 @@
           <p class="text-left">
             Løsningen innebar å sette opp en
             <strong>MQ-server</strong> som gjorde at deres systemer hadde muligheter til å snakke med en
-            <strong>Mysql database</strong>
+            <strong>Mysql database</strong> som deretter ble brukt for å snakke med noen andre tjenester.
           </p>
 
           <p class="text-left">
             Prosjektet krevde å håndtere en stor kvantitet med queries, og med så nærmest mulig "real-time" som mulig.
             Jeg oppnådde dette med å sette opp en
-            <strong>task queue</strong> for å behandle lasten av queries som ble generert
+            task queue for å behandle lasten av queries som ble generert
           </p>
 
           <p class="text-left">
-            I tillegg trengte de et API for
-            <strong>autentisering</strong>.
+            I tillegg trengte de et API for autentisering som ble satt opp med bruk av Python og Flask
           </p>
 
           <p class="title text-left mt-8">
@@ -47,7 +48,7 @@
         <!-- men som ikke hadde mulighet til å kommunisere med en database.  -->
       </v-col>
 
-      <v-col cols="3">
+      <v-col :md="12" :xs="12" :sm="12" :xl="6" :lg="6" :cols="12">
         <CvProjects
           title="Homepo"
           description="En saas-tjeneste"
@@ -81,7 +82,7 @@
         </CvProjects>
       </v-col>
 
-      <v-col cols="3">
+      <v-col :md="12" :xs="12" :sm="12" :xl="6" :lg="6" :cols="12">
         <CvProjects
           title="Lær kidsa koding"
           amountOfMonths="3 dager hvert år"
@@ -105,7 +106,7 @@
         </CvProjects>
       </v-col>
 
-      <v-col cols="3">
+      <v-col :md="12" :xs="12" :sm="12" :xl="6" :lg="6" :cols="12">
         <CvProjects
           title="Orange money"
           description="Automatisering"
@@ -123,7 +124,7 @@
         </CvProjects>
       </v-col>
 
-      <v-col cols="3">
+      <v-col :md="12" :xs="12" :sm="12" :xl="6" :lg="6" :cols="12">
         <CvProjects
           title="Accellerlist.com"
           description="Videreutviklet API"
@@ -138,7 +139,7 @@
         </CvProjects>
       </v-col>
 
-      <v-col cols="3">
+      <v-col :md="12" :xs="12" :sm="12" :xl="6" :lg="6" :cols="12">
         <CvProjects
           title="3gProxy"
           amountOfMonths="Pågående"
@@ -164,10 +165,10 @@
         </CvProjects>
       </v-col>
 
-      <v-col cols="3">
+      <v-col :md="12" :xs="12" :sm="12" :xl="6" :lg="6" :cols="12">
         <CvProjects
           title="Loop ai labs"
-          description="ANAL"
+          description="ML og NLP"
           :technologyUsed="['kake', 'nam']"
           imageUrl="https://www.prlog.org/12595793-new-loop-logo.png"
         >
@@ -176,7 +177,7 @@
         </CvProjects>
       </v-col>
 
-      <v-col cols="3">
+      <v-col :md="12" :xs="12" :sm="12" :xl="6" :lg="6" :cols="12">
         <CvProjects
           title="Ticket-system"
           description="Askøy Kommune"
@@ -185,24 +186,46 @@
         >Under fagprøven Lagde Kristian et responsivt og "lett å bruke" system for både teknikerne og brukerne. Inspirasjonen var fra Ticket-systemet som var i bruk i Kommunen, som Kristian mente ikke var et produktivt verktøy, og som han så mange forbedringer i.</CvProjects>
       </v-col>
 
-      <v-col cols="3">
+      <v-col :md="12" :xs="12" :sm="12" :xl="6" :lg="6" :cols="12">
         <CvProjects
           title="Hack the crisis"
           description="Sammen med Experis"
           :technologyUsed="['Gode ideer', 'system architecture']"
           imageUrl="https://www.ks.no/imagevault/publishedmedia/5pd9nihordk1g3azg7mn/HackCrisis.jpg"
-        >Fyll inn mer info her</CvProjects>
+        >En hackaton for å finne på nye løsninger relatert til covid</CvProjects>
       </v-col>
 
-      <v-col cols="3">
+      <v-col :md="12" :xs="12" :sm="12" :xl="6" :lg="6" :cols="12">
         <CvProjects
           title="Krypto mining"
           description="Sammen med en venn"
           :technologyUsed="['Gode ideer', 'system architecture']"
           imageUrl="https://lh3.googleusercontent.com/GgW2ocv_0UkD1Lx4VzsKfCkJx0RkZDtpqeXjdVU73nKV6Bsm70qTWum_89iOyU91RZ9Lm69vxmXxZEknb56lvU1s_7Wbpap5EAPj1pLqI4DyXYzr1aNlz88s93DQR2FqAuDXXWlwz99Ac5tPvXGxWPWs3lXTQ2dDNuCKcpjJmPV8cs_QR5ngWYpJP-lCkswO0Tni2LFeie48h7AEAXBHzHclSB48i0wyl0sbp8OozeWkl_00YhdxQW_F0tgMvcMvCbz0mxPQnYVy-z0uEunYn-fS1pXZQNZ0tPCFj00FxA0wtix4qZXsUpBG1ciSgiG6437S-k-sYREdoFp2bnOzjGRO3kqm6e1wuVu_nWpRuTx72Ybw0Bao8tMV_GCBKcidjiaoIntOicdrdfAsJOuzIX14QpwveRcSM1E6vR0vqmmvsgT4XGfxsmDq0DRxNcOIwV4Rt1Mjf5USnSiCfPLIwFGlNewpbapucsYRDNV1TFevKlasK6zYB75HaqJawCqalpPwcgmeUVlvcOd__X__EQ8WIIwrJPeSqMNWU7yOqJLEbkCiT4Ko4oZ9gUi6zMS-QKDNqMe20LCe1JrgvQ3RgAA2DjzColYRBtDFUoni2xI6XsR-46iObd1gvtjol0k5r4vhkF9TdpvyXFZwsoRz4GIYWQdtyVlyR6nCj5uDQsFC6pIKzhvGbCx1dt6xNU9Hsg81im92FlsSwtly4W6qM9jf3Yh2qe6Ks3cOh6SsF_s3IDC3S1I9Rw=w1240-h926-no"
-        >Krypto mining. 40 skjermkort. masse spenning og moro. Veldig lærerikt. Fiks opp her. Skriv skikeklig</CvProjects>
+        >Krypto mining. Til sammen hadde vi 40 skjermkort. masse spenning og moro. Veldig lærerikt.</CvProjects>
       </v-col>
+
+        <v-col  :md="12" :xs="12" :sm="12" :xl="6" :lg="6" :cols="12">
+          <CvProjects
+            title="API KURS"
+            imageUrl="https://www.drupal.org/files/project-images/rain-drop-hi.png"
+          >
+          <p>
+            Enkelt og koselig kurs som handlet om å hjelpe andre med å lære om apier.
+            Det var 10 stykker, og det var et internt kurs hvor jeg lærte opp andre ansatte.
+          </p>
+          </CvProjects>
+        </v-col>
+
+        <v-col  :md="12" :xs="12" :sm="12" :xl="6" :lg="6" :cols="12">
+          <CvProjects
+            title="Saksofon instruktør"
+            imageUrl="https://cdn.shopify.com/s/files/1/1151/9830/products/as-400_20dg-02_1800x1800.jpg?v=1623183737"
+          >
+          <p>Veldig gøy :D</p>
+          </CvProjects>
+        </v-col>
     </v-row>
+  </div>
 </template>
 
 <script>

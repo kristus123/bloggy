@@ -3,7 +3,7 @@
     <v-card>
         <h1>{{title}}</h1>
     <slot />
-    <v-img :src="imageUrl" />
+    <v-img max-width="500" :src="imageUrl" />
     </v-card>
 </div>
   
