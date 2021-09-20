@@ -38,13 +38,15 @@ The same goes with objects returned by a method
 ```java
 
 
-public static class Candy {
-    String name;
-    int amount;
-}
+Class CandyService {
+    public static class Candy {
+        String name;
+        int amount;
+    }
 
-public Candy getCandy(String name) {
-    return new Candy(name, candyQuantity(name))
+    public Candy getCandy(String name) {
+        return new Candy(name, candyQuantity(name))
+    }
 }
 ```
 
