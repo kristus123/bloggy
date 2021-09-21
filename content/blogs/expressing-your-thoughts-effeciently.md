@@ -3,6 +3,7 @@ title: Expressing your thoughts efficiently
 description: Take one step at a time
 tags: ['fruit', 'microservices']
 readButton: wow
+pathPrefix: blogs
 readable: true
 ---
 
