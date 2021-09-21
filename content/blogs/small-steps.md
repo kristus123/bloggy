@@ -1,7 +1,6 @@
 To have taken a step without knowing where to go.
 
-One of the juniors have been working on a task in a codebase which is still unfamiliar to him and even the language is
-new to him.
+One of the juniors have been working on a task in a codebase which is still unfamiliar to him and even the language is new to him.
 The implemented solution has also come at the cost of having to spend time debugging.
 There has been a few reasons (as i have observed passively) which has driven him to an unsteady path
 

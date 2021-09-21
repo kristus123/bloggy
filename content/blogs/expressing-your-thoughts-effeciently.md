@@ -1,8 +1,9 @@
 ---
 title: Expressing your thoughts efficiently
-description: 'handling your shit is wack yo'
+description: Take one step at a time
 tags: ['fruit', 'microservices']
 readButton: wow
+readable: true
 ---
 
 When you are having a discussion or you are guiding juniors on their design solution, it might some times be hard to express why something is done. Maybe you are following the patterns unique to the project, or you have some strong principles that are there to guide a simple design.
