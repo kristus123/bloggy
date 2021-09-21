@@ -9,7 +9,16 @@ font-weight:lighter;
 font-size: 22px;
 margin-top: 50px;
 }
+.nuxt-content h4 {
+    font-weight:lighter;
+    font-size: 18px;
+    margin-top: 25px;
+    }
 .nuxt-content p {
 margin-top:20px;
 font-size: 18px;
 }
+
+.nuxt-content em {
+    font-weight:lighter;
+    }
