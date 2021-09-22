@@ -59,7 +59,7 @@ export default {
 
   async asyncData({ $content, params }) {
     return {
-      page: await $content(params.folder, params.name).fetch(),
+      page: await $content(params.folder.replaceAll("_", "/"), params.name).fetch(),
     };
   },
 };
