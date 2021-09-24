@@ -53,10 +53,6 @@
 export default {
   layout: "blogs",
 
-  mounted() {
-    this.$gtag.event("read_article", { method: "Google" });
-  },
-
   async asyncData({ $content, params }) {
     return {
       page: await $content(params.folder.replaceAll("_", "/"), params.name).fetch(),
