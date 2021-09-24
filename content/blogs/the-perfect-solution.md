@@ -2,7 +2,7 @@
 title: It is possible to achieve the perfect solution
 description: You just have to embrace everything that comes with it
 tags: ['design', "implementation", 'architecture']
-coverImage: https://cdn11.bigcommerce.com/s-x49po/images/stencil/1280x1280/products/41225/56447/ModernGicleeChinesePainting1_na_500_8041(1044)_4724X5906_0__53127.1564555321.jpg?c=2
+coverImage: https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pd20-016-jj.jpg?w=1000&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f5c3d7ff2068c623837fd51dfc065cf4
 readButton: Curious?
 pathPrefix: blogs
 readable: true

@@ -2,7 +2,7 @@
 title: The Educated and the self-taught person
 description: Both are the same
 tags: ['design', "implementation", 'architecture']
-coverImage: https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pdmet-julian-09-gloy_1_0.jpg?w=1000&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=efef78601dbfc05f2c4161bfdf832a0a
+coverImage: https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pd158-09-nap.jpg?w=1000&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=4632acca953f66d5952f80adcbfc6385
 readButton: Read more
 pathPrefix: blogs
 readable: true
