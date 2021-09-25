@@ -31,6 +31,6 @@ export default {
 }
 .motion:hover {
   top: -10px;
-  background-color: rgba(255, 202, 26, 0.2);
+  background-color: rgb(246, 196, 102);
 }
 </style>

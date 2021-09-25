@@ -8,7 +8,7 @@
         </h2>
       </div>
     </center>
-    <div class="rounded">
+    <div class="rounded pb-6">
       <nuxt-content class="px-5" :document="page" />
     </div>
     <center>

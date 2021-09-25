@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app style="background: #F2F2F2">
     <v-main class="bg-image">
       <v-container style="max-width: 70rem">
         <Nuxt />
@@ -19,9 +19,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.bg-image {
-  
-}
-</style>

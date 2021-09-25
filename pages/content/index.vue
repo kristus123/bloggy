@@ -15,7 +15,7 @@
           v-for="category in categories"
           v-bind:key="category"
         >
-          <v-card :color="category.color" :class="`motion ${category.class}`" max-width="400">
+          <v-card :color="category.color" :class="`highligt-on-hover ${category.class}`" max-width="400">
             <div class="pa-4">
               <h2>{{ category.title }}</h2>
               <p class="mt-4">{{ category.description }}</p>
@@ -77,14 +77,13 @@ export default {
 </script>
 
 <style scoped>
-.motion {
+.highligt-on-hover {
   position: relative;
   top: 0;
   transition: top ease 0.2s;
   -webkit-transition: all 0.1s ease-in;
 }
-.motion:hover {
+.highligt-on-hover:hover {
   top: -10px;
-  background-color: rgba(255, 202, 26, 0.2);
 }
 </style>
