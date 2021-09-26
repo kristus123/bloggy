@@ -1,5 +1,6 @@
 <template>
   <article>
+    
     <center>
       <div class="container">
         <TextTitle :title="page.title" />
@@ -55,7 +56,7 @@ export default {
 
   async asyncData({ $content, params }) {
     return {
-      page: await $content(params.folder.replaceAll("_", "/"), params.name).fetch(),
+      page: await $content(params.folder, params.name).fetch(),
     };
   },
 };

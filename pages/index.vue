@@ -10,7 +10,7 @@
       
 <v-row align="center"
       justify="center">
-      <v-col xs="12" md="6" lg="6" xl="3" cols="12" v-for="page in pages" v-bind:key="page.title" class="mb-12 mt-12">
+      <v-col xs="12" md="6" lg="6" xl="6" cols="12" v-for="page in pages" v-bind:key="page.title" class="mb-12 mt-12">
         <center>
           <nuxt-link :to="page.to">
               <v-btn text x-large color="blue darken-2" dark
@@ -24,16 +24,11 @@
     </v-row>
     </div>
     
-      
-
-
-
 <SubscribeJoin />
 
 <center class="ma-16">
   <hr style="max-width:50%" >
 </center>
-
 
 <center class="mt-16">
       <v-icon size="50" color="red darken-2">mdi-yin-yang</v-icon >

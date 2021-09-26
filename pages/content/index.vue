@@ -2,6 +2,8 @@
   <div>
     <center>
       <div>
+        <center>
+        </center>
         <TextTitle title="Various articles" />
 
       <v-row align="center" justify="center" class="ma-0 pa-0">
