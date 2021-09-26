@@ -135,6 +135,7 @@ Add this to `vm arguments`
 # my.api = the spring module in your system that has the spring dependencies
 --add-reads my.api=ALL-UNNAMED
 ```
+
 This allows Spring to do its *"reflection magic"*.
 
 And then you need to `require` all the packages you want to use.
@@ -162,3 +163,10 @@ module my.api {
 ## Some quick fun facts
 
 - Everyone inherits the dependencies from the master pom
+
+
+Depending on what kind of error you get further down, you might also want to add some more arguments
+
+```bash
+--add-opens java.base/java.lang=ALL-UNNAMED
+```
