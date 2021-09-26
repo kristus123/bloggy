@@ -14,6 +14,8 @@ Spend your time the way you want to spend it. It is your life, and you decide ho
 
 # " It is hard for me to say no because I Don't want to be mean "
 
-That is a waste of energy to think. You avoid being mean by not being a bad person
+That is a waste of energy to think. You avoid being mean by not being a bad person.
+
+And by not respecting your own feelings you are being mean to yourself.
 
 There is a time and place for everything. If you donn't want to talk with someone, then it is not the time and place to do so.
