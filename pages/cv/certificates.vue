@@ -59,3 +59,10 @@
 
 <style>
 </style>
+
+
+<script>
+export default {
+  layout: "cv"
+}
+</script>
