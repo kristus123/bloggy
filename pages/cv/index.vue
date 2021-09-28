@@ -28,7 +28,7 @@
       </v-col>
     </v-row>
 
-    <hr class="my-12" style="max-width: 70%" />
+    <!-- <hr class="my-12" style="max-width: 70%" />
     <v-row align="center" justify="center">
       <v-col v-for="skill in skills" v-bind:key="skill.value" class="my-2">
         <v-chip :color="skill.color" dark class="ma-2" outlined>
@@ -36,7 +36,7 @@
           {{ skill.value }}
         </v-chip>
       </v-col>
-    </v-row>
+    </v-row> -->
   </center>
 </template>
 
