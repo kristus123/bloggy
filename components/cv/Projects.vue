@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-card class="pa-16">
+    <v-card class="pa-4">
       <TextTitle :title="title" />
       <center>
         <p class="grey--text">{{ description }}</p>

@@ -1,13 +1,14 @@
 <template>
   <div>
+    <p class="white--text">{{pages}}</p>
     <TextTitle class="white--text mt-8" title="Some projects i have worked on" />
     <center>
-      <h2 class="white--text font-weight-thin"><span style="color:red;">*</span> Will translate to English. They also need some cleanup</h2>
+      <h2 class="white--text font-weight-thin"><span style="color:red;">*</span> Will translate to English. The text also need some cleanup</h2>
     </center>
     <v-row>
       <v-col :md="12" :xs="12" :sm="12" :xl="6" :lg="6" :cols="12">
         <CvProjects
-        class="pa-16"
+        class="pa-1"
           title="Cspot"
           description="Utvikling av ønskede tjenester"
           imageUrl="https://coincentral.com/wp-content/uploads/2017/08/ethereum.png"
@@ -71,7 +72,7 @@
 
       <v-col :md="12" :xs="12" :sm="12" :xl="6" :lg="6" :cols="12">
         <CvProjects
-        class="pa-16"
+        class="pa-1"
           title="Homepo"
           description="En saas-tjeneste"
           amountOfMonths="Pågående"
@@ -135,7 +136,7 @@
 
       <v-col :md="12" :xs="12" :sm="12" :xl="6" :lg="6" :cols="12">
         <CvProjects
-        class="pa-16"
+        class="pa-1"
           title="Lær kidsa koding"
           amountOfMonths="3 dager hvert år"
           yearFromTo="2019-"
@@ -164,7 +165,7 @@
 
       <v-col :md="12" :xs="12" :sm="12" :xl="6" :lg="6" :cols="12">
         <CvProjects
-        class="pa-16"
+        class="pa-1"
           title="Orange money"
           description="Automatisering"
           amountOfMonths="4 måneder"
@@ -186,7 +187,7 @@
 
       <v-col :md="12" :xs="12" :sm="12" :xl="6" :lg="6" :cols="12">
         <CvProjects
-        class="pa-16"
+        class="pa-1"
           title="Accellerlist.com"
           description="Videreutviklet API"
           imageUrl="https://i.gyazo.com/2bb135d032766493b5dfb7c3bba84bf5.png"
@@ -204,7 +205,7 @@
 
       <v-col :md="12" :xs="12" :sm="12" :xl="6" :lg="6" :cols="12">
         <CvProjects
-        class="pa-16"
+        class="pa-1"
           title="3gProxy"
           amountOfMonths="Pågående"
           yearFromTo="2017-"
@@ -231,7 +232,7 @@
 
       <v-col :md="12" :xs="12" :sm="12" :xl="6" :lg="6" :cols="12">
         <CvProjects
-        class="pa-16"
+        class="pa-1"
           title="Loop ai labs"
           description="ML og NLP"
           :technologyUsed="['kake', 'nam']"
@@ -250,7 +251,7 @@
 
       <v-col :md="12" :xs="12" :sm="12" :xl="6" :lg="6" :cols="12">
         <CvProjects
-        class="pa-16"
+        class="pa-1"
           title="Ticket-system"
           description="Askøy Kommune"
           :technologyUsed="['kake', 'nam']"
@@ -264,7 +265,7 @@
 
       <v-col :md="12" :xs="12" :sm="12" :xl="6" :lg="6" :cols="12">
         <CvProjects
-        class="pa-16"
+        class="pa-1"
           title="Hack the crisis"
           description="Sammen med Experis"
           :technologyUsed="['Gode ideer', 'system architecture']"
@@ -276,7 +277,7 @@
 
       <v-col :md="12" :xs="12" :sm="12" :xl="6" :lg="6" :cols="12">
         <CvProjects
-        class="pa-16"
+        class="pa-1"
           title="Krypto mining"
           description="Sammen med en venn"
           :technologyUsed="['Gode ideer', 'system architecture']"
@@ -288,7 +289,7 @@
 
       <v-col :md="12" :xs="12" :sm="12" :xl="6" :lg="6" :cols="12">
         <CvProjects
-        class="pa-16"
+        class="pa-1"
           title="API KURS"
           imageUrl="https://www.drupal.org/files/project-images/rain-drop-hi.png"
         >
@@ -302,7 +303,7 @@
 
       <v-col :md="12" :xs="12" :sm="12" :xl="6" :lg="6" :cols="12">
         <CvProjects
-        class="pa-16"
+        class="pa-1"
           title="Saksofon instruktør"
           imageUrl="https://cdn.shopify.com/s/files/1/1151/9830/products/as-400_20dg-02_1800x1800.jpg?v=1623183737"
         >
@@ -316,6 +317,12 @@
 <script>
 export default {
   layout: "cv",
+
+  async asyncData({ $content, params }) {
+    return {
+      pages: await $content("_projects").fetch(),
+    };
+  },
 };
 </script>
 
