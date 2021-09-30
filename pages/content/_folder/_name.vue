@@ -1,6 +1,5 @@
 <template>
   <article>
-    
     <center>
       <div class="container">
         <TextTitle :title="page.title" />
