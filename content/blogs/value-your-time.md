@@ -18,4 +18,4 @@ That is a waste of energy to think. You avoid being mean by not being a bad pers
 
 And by not respecting your own feelings you are being mean to yourself.
 
-There is a time and place for everything. If you donn't want to talk with someone, then it is not the time and place to do so.
+There is a time and place for everything. If you don't want to talk with someone, then it is not the time and place to do so.

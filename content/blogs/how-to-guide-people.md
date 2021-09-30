@@ -27,7 +27,7 @@ When you don't have control over what you are supposed to do, anxiety is not far
 
 ### Keep it short
 
-When too much info is given at the same time, they will simply nod and agree in order to avoid getting loaded with more info. Their brain goes into a defensive state and tries to shield *themselves** from an overload of information.
+When too much info is given at the same time, they will simply nod and agree in order to avoid getting bombarded with more info. Their brain goes into a defensive state to *shield itself** from an overload of information.
 
 **this has been proven in scientific studies, but i will need to find the source. I read it in a book*
 

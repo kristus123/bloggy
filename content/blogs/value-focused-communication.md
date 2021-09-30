@@ -1,6 +1,6 @@
 ---
-title: value focused communication
-description: Don't waste your time
+title: High quality communication
+description: Don't waste your time on unrelated topics
 tags: ['fruit', 'microservices']
 readButton: wow
 pathPrefix: blogs
