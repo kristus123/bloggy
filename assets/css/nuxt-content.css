@@ -9,7 +9,6 @@
     border-bottom: 3px solid orangered;
 }
 
-
 .nuxt-content h2 {
 font-weight:lighter;
 font-size: 28px;
@@ -33,4 +32,24 @@ font-size: 18px;
 
 .nuxt-content em {
     font-weight:lighter;
-    }
+}
+
+
+.nuxt-content li {
+        list-style-type: "- ";
+}
+
+.nuxt-content li::marker {
+    color: red;
+    font-size: 20px;
+}
+
+.nuxt-content li {
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+.nuxt-content ul {
+    margin-left: 30px;
+    margin-bottom: 70px;
+}
