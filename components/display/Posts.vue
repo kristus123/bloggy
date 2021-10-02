@@ -1,18 +1,36 @@
 <template>
   <center>
-    <v-row align="center" justify="center" class="ma-0 pa-0">
-      <v-col
-        xs="12"
-        sm="12"
-        md="6 "
-        lg="4"
-        xl="4"
-        v-for="article in articles"
-        v-bind:key="article.slug"
-      >
-        <CardPost :article="article" />
-      </v-col>
-    </v-row>
+    <MyCols
+      xs="12"
+      sm="12"
+      md="6 "
+      lg="4"
+      xl="4"
+      :pages="articles"
+      v-slot="{ page }"
+    >
+      <v-card class="motion" max-width="400">
+        <v-img
+          height="10"
+          :src="`${page.coverImage}`"
+          class="pa-9 align-end"
+          min-height="300"
+        />
+
+        <div class="pa-4">
+          <h2>{{ page.title }}</h2>
+          <p class="mt-4">{{ page.description }}</p>
+          <div class="mt-5 mb-4"></div>
+        </div>
+        <center class="pa-4">
+          <nuxtLink :to="`/content/${page.pathPrefix}/${page.slug}`">
+            <v-btn block dark color="blue darken-1">{{
+              page.readButton
+            }}</v-btn>
+          </nuxtLink>
+        </center>
+      </v-card>
+    </MyCols>
   </center>
 </template>
 
