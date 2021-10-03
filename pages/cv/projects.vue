@@ -12,18 +12,9 @@
       </h2>
     </center>
 
-    <center>
-      <v-card width="150" class="ma-8 pa-2 pl-4">
-        <v-radio-group v-model="selectedTag">
-          <v-radio
-            v-for="k in tags"
-            :key="k"
-            :label="`${k}`"
-            :value="k"
-          ></v-radio>
-        </v-radio-group>
-      </v-card>
-    </center>
+    <v-radio-group v-model="selectedTag" row dark class="my-12">
+      <v-radio v-for="k in tags" :key="k" :label="`${k}`" :value="k"></v-radio>
+    </v-radio-group>
 
     <v-row>
       <v-col
@@ -78,10 +69,16 @@ export default {
   },
 
   async asyncData({ $content }) {
+    const projects = await $content("_projects").fetch();
+
+    const tags = new Set();
+    tags.add("all");
+    projects.map((p) => tags.add(p.workPlace));
+
     return {
       selectedTag: "all",
-      tags: [ "all", "dnb", "experis", "freelance",],
-      pages: await $content("_projects").fetch(),
+      tags: tags,
+      pages: projects,
     };
   },
 };
