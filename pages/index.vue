@@ -21,6 +21,8 @@
     </MyCols>
 
     <SubscribeJoin />
+
+    <ContactInfo class="mt-12" />
   </div>
 </template>
 
