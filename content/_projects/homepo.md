@@ -1,6 +1,6 @@
 ---
 title: Homepo
-description: Saas-tjeneste for dropshippers
+description: Saas-service for dropshippers
 technologies: [
             'Python',
             'Flask',
@@ -46,4 +46,4 @@ I tillegg holder den kontroll på alle gavekortene, og holder
 balansene oppdatert. Gavekortene blir hentet fra brukerens epost(er)
 og lagt inn i systemet.
 
-De fleste sparer $500-1000 i måneden, og jeg har 5 aktive brukere.
+De fleste sparer $500-1000 i måneden, og jeg har 5 b2b kunder som bruker tjenesten.

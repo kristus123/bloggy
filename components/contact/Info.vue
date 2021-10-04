@@ -1,7 +1,8 @@
 <template>
   <center>
-    <h1 style="font-size: 2rem" class="mb-2 font-weight-thin">
-      <v-icon x-large color="red" class="mr-4">mdi-gmail</v-icon>krispetter@gmail.com
+    <p class="mb-0 font-weight-thin white--text">Contact me:</p>
+    <h1 style="font-size: 2rem" class="font-weight-thin white--text">
+      krispetter@gmail.com
     </h1>
   </center>
 </template>

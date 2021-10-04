@@ -8,7 +8,7 @@
         <v-icon color="green" class="ml-0">mdi-flower</v-icon>
       </p>
     </center>
-    <MyCols :pages="pages" v-slot="{ page }">
+    <MyCols :pages="pages" :all="12" v-slot="{ page }">
       <center>
         <nuxt-link :to="page.to">
           <v-btn text x-large color="blue darken-2" dark>{{
@@ -19,10 +19,6 @@
         <p class="grey--text">{{ page.description }}</p>
       </center>
     </MyCols>
-
-    <SubscribeJoin />
-
-    <ContactInfo class="mt-12" />
   </div>
 </template>
 

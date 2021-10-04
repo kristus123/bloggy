@@ -9,4 +9,4 @@ year: "2021"
 workPlace: dnb
 ---
 
-Reiste til Trondheim for å gjøre kryptografi oppgaver med studenter
+Reiste til Trondheim for å gjøre kryptografi oppgaver med studenter fra NTNU

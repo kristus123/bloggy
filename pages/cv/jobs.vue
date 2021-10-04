@@ -54,8 +54,8 @@ export default {
           title: "Experis",
           position: "Sofware engineer consultant",
           description:
-            "Graduate program for people with a completed education. After 3 months of learning I started working in DNB",
-          years: "2020-2021",
+            "Graduate program for people with a completed education. After 3 months I started working in DNB",
+          years: "2020",
           tags: ["Java", "Javascript", "Misc."],
         },
         {

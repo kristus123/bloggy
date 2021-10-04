@@ -23,28 +23,28 @@ So we could say that code analyzis tools could help out in times of weakness, an
 But before that even begins, there should be a discussion with the team on which approach to take, what to focus on, what standards to enforce and how to make sure they are applied as planned.
 
 
-Just as you plan on how to implement a new change, you should plan on these topics as well. These are your guidelines and will be the source of truth for everyone to follow, which makes it important that they are:
+Just as you plan on how to implement a new change, you should plan the guidelines for achieving a conceptual integrity as well. These guidelines will be the source of truth for everyone to follow which makes it important that they are:
 
 - easily applied
 - easy to understand
 - easily available for reference
 - everyone agrees on them
 
- This, just like many other tasks, is an iterative process where you always improve the specifications.
+This, just like many other tasks is an iterative process where you always improve the specifications.
 
 
 What i have experienced is that often people take the familiar path when starting from scratch.
-The familiar path is not the easiest path, it is simply just what you are used to.
-If you are working in a functional programming language while having you familiar procedural mindset, you will be going against the flow.
 
-Struggling against a force that is stronger than you will eventually wear your out and you will be stuck in the tar pit.
+# The familiar path is not the easiest path, it is simply just what you are used to
+
+When you encounter new standards, you will be struggling against a force that is stronger than you and eventually will wear your out. Accept that things are done differently when working in new environments.
 
 ## Struggling against your own codebase
 
 Your foot won't fit in a small shoe so there is no need to try.
 So why struggle so hard to force your new solution into the current design?
 
-If there are new requirement that no longer fits with your design, you should work on the new design, not on the requirement.
+If there are new requirement that no longer fits with your design, you should work on the new design or your team's guidelines, not on the requirement.
 
 ## Simple code leads to simple arcitecture
 
@@ -54,8 +54,8 @@ Simple code will make it easy to extend and modify your codebase.
 ## If we want everything to be simple, how strict should we be ?
 
 As always, it depends on the complexity and lifetime of the project.
-The longer life expectancy, the more time should be spent on planning, architecture and design.
+Long-lived and complex projects should spend more time on planning, architecture and design as it will pay off in the long run
 
-As talked about eariler, you could create a simple specification document that guides everyone's decision making throughout the project. This could be used as a source of truth when debating in the team on how to do things, and if there is disagreement in a decision, you must talk about the specification document and not the decision being made.
+As talked about eariler, you could create a simple specification document that guides everyone's decisions throughout the project. This could be used as a source of truth when debating in the team on how to do things, and if there is disagreement in a decision, you must talk about the specification document and not the decision or feature.
 
-If you feel misc. code analyzis tools will be beneficial, then you should highly consider using them. Your team will need to commit to it in order to reap the rewards it give, so discuss with your team whether this is an investment you feel safe doing.
+If you feel code analyzis tools will be beneficial, then you should highly consider using them. Your team will need to commit to it in order to reap the rewards it give. Discuss with your team whether this is an investment you feel will pay off.

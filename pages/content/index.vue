@@ -21,6 +21,8 @@
         </v-card>
       </MyCols>
     </div>
+
+    <SubscribeJoin />
   </center>
 </template>
 <script>

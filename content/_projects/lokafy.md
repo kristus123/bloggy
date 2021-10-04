@@ -11,7 +11,7 @@ workPlace: lokafy
 
 Lokafy hit some roadblocks and needed a second voice on how to move forward steady and in a predictable pace.
 
-They were looking for someone that could make sure their restructuring and new plans for improving their throughput.
+They were looking for someone that could help make sure their restructuring and new plans for improving their throughput were the best for the project.
 
 I started by getting to know the current stack, and their routines and spent time understanding where things started going sour.
 

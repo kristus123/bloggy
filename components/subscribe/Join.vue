@@ -1,9 +1,9 @@
 <template>
-  <center class="mt-16">
+  <center class="mt-4">
     <div v-if="joined">
       <TextTitle title="Thank you!" />
       <p class="grey--text">
-        If you no longer want notifications, just use this same form!
+        If you no longer want notifications, just use the form!
       </p>
       <p class="grey--text">And let me know why ;) Thank you again!</p>
     </div>

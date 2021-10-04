@@ -5,18 +5,21 @@
     </h1>
     <p>And this is my <strong class="orange--text">CV</strong></p>
 
-    <MyCols :all="12" :pages="pages" v-slot="{ page }">
-      <center>
-        <nuxt-link :to="page.to">
-          <v-btn text x-large color="blue darken-2" dark>{{
-            page.title
-          }}</v-btn>
-        </nuxt-link>
+    <div style="max-width:80rem;">
+      <MyCols :pages="pages" v-slot="{ page }">
+        <center>
+          <nuxt-link :to="page.to">
+            <v-btn text x-large color="blue darken-2" dark>{{
+              page.title
+            }}</v-btn>
+          </nuxt-link>
 
-        <p class="grey--text">{{ page.description }}</p>
-      </center>
-    </MyCols>
+          <p class="grey--text">{{ page.description }}</p>
+        </center>
+      </MyCols>
+    </div>
 
+    <ContactInfo class="mt-12" />
     <hr class="my-12" style="max-width: 70%" />
     <SkillTags />
   </center>
@@ -43,6 +46,11 @@ export default {
           title: "Certificates",
           description: "Indeed I have nerded hard",
           to: "/cv/certificates",
+        },
+        {
+          title: "My blog",
+          description: "Read my mind",
+          to: "/content",
         },
       ],
     };
