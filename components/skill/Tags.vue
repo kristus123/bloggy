@@ -28,6 +28,7 @@ export default {
       "Powershell",
       "Javascript",
       "Vue.js",
+      "GTD (getting things done)",
       "HTML",
       "Git",
       "Java",
