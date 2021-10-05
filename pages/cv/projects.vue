@@ -16,18 +16,13 @@
       <v-radio v-for="k in tags" :key="k" :label="`${k}`" :value="k"></v-radio>
     </v-radio-group>
 
-    <v-row>
-      <v-col
-        v-for="page in pagesToShow"
-        v-bind:key="page.slug"
-        :md="12"
+    <MyCols :md="12"
         :xs="12"
         :sm="12"
         :xl="6"
         :lg="6"
-        :cols="12"
-      >
-        <v-card class="pa-4">
+        :cols="12" :pages="pagesToShow" v-slot="{page}">
+      <v-card class="pa-4">
           <TextTitle :title="page.title" />
           <center>
             <v-img class="mb-10" width="400" :src="page.image" />
@@ -48,9 +43,8 @@
             </v-col>
           </v-row>
         </v-card>
-        <center></center>
-      </v-col>
-    </v-row>
+
+    </MyCols>
   </div>
 </template>
 
