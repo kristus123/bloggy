@@ -1,3 +1,13 @@
+---
+title: DRAFT!
+description: DRAFT!
+tags: ['design', "implementation", 'architecture']
+coverImage: https://picsum.photos/600/400
+readButton: Curious?
+pathPrefix: blogs
+readable: true
+---
+
 It is all about the context and what makes sence.
 
 does it make sense to pass the object ?
