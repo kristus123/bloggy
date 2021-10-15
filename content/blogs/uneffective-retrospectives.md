@@ -10,24 +10,10 @@ it is enough for one person to write it down on the whiteboard
 - Fun to learn a new framework
 ```
 
-Not everybody needs to repeat it.
+Not everybody needs to repeat it if everyone had a similar experience. Remove duplicate entries.
 
-This was more of a "what did everyone do this week and how fun it was and how amazing we all are" meeting
+This was more of a "what did everyone do this week and how fun it was and how amazing we all are" meeting and not a retrospective meeting.
 
-Way too long time was spent on going through what went well.
-
-Effectively this was our list of what we did well. And we spent equal amount of time on each of the lines (even though they were identical)
-
-```
-(this is just an example)
-
-# What did we do well
-- Fun to learn a new framework
-- Fun to learn a new framework
-- Fun to learn a new framework
-- Fun to learn a new framework
-```
-
-It was in kind words a waste of time
+Way too long time was spent on going through 'what went well'.
 
 Next time things should be summarised more efficiently for everyone's sake.
