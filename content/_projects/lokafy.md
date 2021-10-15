@@ -16,3 +16,7 @@ They were looking for someone that could help make sure their restructuring and 
 I started by getting to know the current stack, and their routines and spent time understanding where things started going sour.
 
 Their story was not unique, as they have experienced the tar pit that many get stuck in.
+
+
+- Focus on improving the throughput
+- Focus on using the time efficiently
