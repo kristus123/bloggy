@@ -8,25 +8,12 @@ coverImage: https://img.rawpixel.com/s3fs-private/rawpixel_images/website_conten
 readable: false
 ---
 
-```md
 
-# hei
+Documentation
 
-Why did it break ?
+good to have, but not needed for everything.
 
-We don't have tests ?
+But the habit of producing documentation is a skill worth practising.
 
-Why don't we have test ?
+When to have documentation depends.
 
-We don't have enough time
-
-Why don't we have enough time ?
-
-Because we spend so much time debugging and fixing bus
-
-Why do we spend so much time fixing bugs ?
-
-Because we have no tests
-```
-
-This is a faulty process
