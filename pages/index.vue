@@ -19,6 +19,10 @@
         <p class="grey--text">{{ page.description }}</p>
       </center>
     </MyCols>
+
+    <center class="mt-16">
+      <QuoteText />
+    </center>
   </div>
 </template>
 

@@ -1,0 +1,40 @@
+<template>
+  <div>
+    <v-btn small text color="grey" @click="setRandomQuote"
+      ><v-icon>mdi-refresh</v-icon></v-btn
+    >
+
+    <h1 style="font-size: 2rem" class="mb-2 font-weight-thin">
+      <v-icon class="pb-12 ma-0" x-large>mdi-format-quote-open</v-icon>
+      {{ quote }}
+      <v-icon class="pb-12 ma-0" x-large>mdi-format-quote-close</v-icon>
+    </h1>
+  </div>
+</template>
+
+<script>
+export default {
+  beforeMount() {
+    this.setRandomQuote();
+  },
+  methods: {
+    setRandomQuote() {
+      this.quote = this.quotes[Math.floor(Math.random() * this.quotes.length)];
+    },
+  },
+  data() {
+    return {
+      quote: null,
+      quotes: [
+        "You will fail most of the time and that is ok",
+        "Your habits define your character",
+        "You are your own and only obstacle",
+        "There is nothing wrong with asking for help",
+      ],
+    };
+  },
+};
+</script>
+
+<style>
+</style>
