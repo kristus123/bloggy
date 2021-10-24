@@ -30,6 +30,8 @@ export default {
         "Your habits define your character",
         "You are your own and only obstacle",
         "There is nothing wrong with asking for help",
+        "Patience is a virtue",
+        "By doing nothing, you achieve everything",
       ],
     };
   },
