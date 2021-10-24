@@ -32,6 +32,13 @@ export default {
         "There is nothing wrong with asking for help",
         "Patience is a virtue",
         "By doing nothing, you achieve everything",
+        "Find meaning in suferring, and purpose in failure",
+        "Don't accept things as it is. Question everything",
+        "Order and chaos can not exist without one another",
+        "Darkness is the absence of life",
+        "Time wasted is not a waste of time",
+        "Time spent well is not possible without time spent poorly",
+        "You are your own friend, and your own partner. Treat yourself like you would treat your best friend",
       ],
     };
   },
