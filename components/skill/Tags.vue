@@ -21,6 +21,9 @@ export default {
 
   beforeMount() {
     const skills = [
+      "Flask",
+      "FastAPI",
+      "I drink the recommended daily amount of water",
       "Programming",
       "Python",
       "Shell scripting",
