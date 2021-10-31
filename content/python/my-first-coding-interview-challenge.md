@@ -18,12 +18,16 @@ The task was fun, but the main challenge was more about the beaty of design, arc
 
 Changes and decision are done in a very short feedback-cycle. Everytime you better your understanding of the domain you will see a way to more clearly reflect the domain and what it's trying to solve in the code.
 
-I did not do test-first-development, but i did write code and shortly after verified that it worked by testing it.
+I did not do test-first-development, but shortly I after verified that it worked by testing.
 The quickest *(ironically)* and most pragmatic solution was to do it this way.
 
-However, I would not do it like this all the time. if this was a larger project it would be better to take your time in order to build quality into the solution from the very start.
+I did write tests, but they came after the design and implementation were done.
+This meant my design was not purely guided by TDD, but i still ended up with a solution which was easy to test.
+However, I did not fully start on refactoring until I had a basic test-suite.
 
-<content-quote quote="The tools used will guide the solution" person="Can't remember" source="I read it from a book, but can't remember which" >
+I would not do it like this all the time. if this was a larger project it would be better to take your time in order to build quality into the solution from the very start.
+
+<content-quote quote="The tools used will guide the solution" person="Can't remember" source="I read it from a book, but can't remember which" icon="mdi-book-open-page-variant">
 </content-quote>
 It is true without a doubt that the tools that are used guide the solution and design of a project.
 
@@ -31,14 +35,17 @@ It is true without a doubt that the tools that are used guide the solution and d
 He starts by **not** thinking about the domain in terms of SQL-tables and classes.
 
 
-Limiting the perspective to software terminology will hurt the overall understanding of the domain and will lead to a sub-optimal solution and design.
+<content-quote quote="Limiting the perspective to software terminology will hurt the overall understanding of the domain and will lead to a sub-optimal solution" person="Scott Wlaschin" icon="mdi-book-open-page-variant" source="Domain modelling made functional" >
+</content-quote>
 
+### Some times that is the only way to start, and some times it is not
 
+My design was definitely affected by the fact that the map was just a text file and made some of the interfaces cohere to this truth.
+It was later fixed during refactoring, but maybe a lot of refactoring could have been avoided if i did not go this path?
 
+This was a good example of the ups and downs of thinking in terms of data types and raw logic when writing code which is also trying to represents the domain in a readable fashion.
 
-
-
-
+It definitely made me create a solution really quick, but the overall design temporarily suffered from it.
 
 ## How my tools shaped the solution
 
@@ -46,7 +53,7 @@ Decisions and work-ethics were guided by the fact that i worked on my Windows pc
 
 Over the years you become lazy and still want to work efficiently. Tools and custom setup will help you achieve a higher level of efficiency without sacrificing precious calories.
 
-Certain things I did not bother to do, as it would require effort to achieve with a simple text-editor.
+Certain things I did not bother to do *(or i postponed for a very long time)*, as it would require effort to achieve with a simple text-editor.
 
-<content-quote quote="If you have to do something manually twice, automate it the third time" person="Twitter CTO" source="I heard the quote from a conference talk. Source not found" >
+<content-quote quote="If you have to do something manually twice, automate it the third time" person="Twitter CTO" icon="mdi-twitter" source="I heard the quote from a conference talk. Source not found" >
 </content-quote>

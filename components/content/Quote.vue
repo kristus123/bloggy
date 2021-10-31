@@ -17,7 +17,8 @@
         style="font-size: 15px"
         class="font-weight-thin ma-0 pa-0 text-right mt-4"
       >
-        *{{ source }}
+        <v-icon large color="orange darken-2">{{ icon }}</v-icon>
+        - {{ source }}
       </p>
     </center>
     <p class="text-right">
@@ -27,7 +28,7 @@
 </template>
 <script>
 export default {
-  props: ["quote", "person", "source"],
+  props: ["quote", "person", "source", "icon"],
 };
 </script>
 
