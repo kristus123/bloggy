@@ -26,6 +26,7 @@ export default {
     return {
       quote: null,
       quotes: [
+        "Do what's right. The rest does not matter",
         "Help is always close by",
         "I don't believe you have to be better than everybody else. I believe you have to be better than you ever thought you could be",
         "Nothing is softer or more flexible than water, yet nothing can resist it",
