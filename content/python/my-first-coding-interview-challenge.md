@@ -27,9 +27,24 @@ However, I did not fully start on refactoring until I had a basic test-suite.
 
 I would not do it like this all the time. if this was a larger project it would be better to take your time in order to build quality into the solution from the very start.
 
-<content-quote quote="The tools used will guide the solution" person="Can't remember" source="I read it from a book, but can't remember which" icon="mdi-book-open-page-variant">
+<content-quote quote="The tools used will guide the solution" person="Dave Thomas and Andy Hunt" source="the pragmatic programmer" icon="mdi-book-open-page-variant">
 </content-quote>
-It is true without a doubt that the tools that are used guide the solution and design of a project.
+It is true without a doubt that the tools that are used guide the solution and design of a project. Everything from the build pipeline, linters, tools and culture all affect the final solution.
+
+## How my tools shaped the solution
+
+Decisions and work-ethics were guided by the fact that i worked on my Windows pc, which meant I didn't have my custom tools.
+
+Over the years you become lazy and still want to work efficiently. Tools and custom setup will help you achieve a higher level of efficiency without sacrificing precious calories.
+
+Certain things I did not bother to do *(or i postponed for a very long time)*, as it would require effort to achieve with a simple text-editor.
+
+<content-quote quote="If you have to do something manually twice, automate it the third time" person="Twitter CTO" icon="mdi-twitter" source="I heard the quote from a conference talk. Source not found" >
+</content-quote>
+
+
+## Domain modelling
+
 
 [Scott Wlaschin](https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TKksLKlMLyoyYPTiK07OLylRKM9JLE7OyMwDAKcdCvQ&q=scott+wlaschin&oq=scott+w&aqs=chrome.1.69i57j46i39j46i512l4j69i60l2.1456j0j4&sourceid=chrome&ie=UTF-8) talks about how he likes to model the domain and do [event storming](https://www.google.com/search?q=event+storming&oq=event+sot&aqs=chrome.1.69i57j0i10l9.1862j0j4&sourceid=chrome&ie=UTF-8).
 He starts by **not** thinking about the domain in terms of SQL-tables and classes.
@@ -45,15 +60,7 @@ It was later fixed during refactoring, but maybe a lot of refactoring could have
 
 This was a good example of the ups and downs of thinking in terms of data types and raw logic when writing code which is also trying to represents the domain in a readable fashion.
 
-It definitely made me create a solution really quick, but the overall design temporarily suffered from it.
+It definitely helped me create a solution quickly, but some parts suffered temporarily.
 
-## How my tools shaped the solution
-
-Decisions and work-ethics were guided by the fact that i worked on my Windows pc, which meant I didn't have my custom tools.
-
-Over the years you become lazy and still want to work efficiently. Tools and custom setup will help you achieve a higher level of efficiency without sacrificing precious calories.
-
-Certain things I did not bother to do *(or i postponed for a very long time)*, as it would require effort to achieve with a simple text-editor.
-
-<content-quote quote="If you have to do something manually twice, automate it the third time" person="Twitter CTO" icon="mdi-twitter" source="I heard the quote from a conference talk. Source not found" >
+<content-quote quote="What is the most important part of the system [for the manager, thus the developers]? The part that makes money!" person="Scott Wlaschin" icon="mdi-book-open-page-variant" source="Domain modelling made functional" >
 </content-quote>
