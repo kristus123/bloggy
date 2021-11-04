@@ -21,6 +21,7 @@
     </MyCols>
 
     <center class="mt-16">
+      <hr style="max-width:60%;" class="mb-10">
       <QuoteText />
     </center>
   </div>
@@ -40,6 +41,11 @@ export default {
           title: "CV",
           description: "also known as what recruiters wants",
           to: "/cv",
+        },
+        {
+          title: "Goals",
+          description: "Things i want to accomplish",
+          to: "/goals",
         },
       ],
     };
