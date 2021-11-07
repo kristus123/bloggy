@@ -17,13 +17,11 @@ But a `non-sealed` class is useful in scenarios like this
 ```java
 // Example from stackoverflow
 
-public abstract sealed class Shape
-    permits Circle, Rectangle, Square {...}
+public abstract sealed class Shape permits Circle, Rectangle, Square {...}
 
 public final class Circle extends Shape {...}
 
-public sealed class Rectangle extends Shape 
-    permits TransparentRectangle, FilledRectangle {...}
+public sealed class Rectangle extends Shape permits TransparentRectangle, FilledRectangle {...}
 public final class TransparentRectangle extends Rectangle {...}
 public final class FilledRectangle extends Rectangle {...}
 
@@ -45,7 +43,6 @@ The true benefit in this is to do domain modelling.
 [Scott](https://www.google.com/search?q=domain+modelling+scott&oq=domain+modelling+scott&aqs=chrome..69i57j33i160l2.4654j0j7&sourceid=chrome&ie=UTF-8) is a person who can definetely give you some insight in how powerful these new features can be. 
 
 ```java
-// x
 
 sealed interface Activity permits Eat {...}
 
@@ -53,7 +50,7 @@ final class Eat extends Activity {...}
 final class Sleep extends Activity {...}
 final class Fart extends Activity {...}
 
-public String doActivity(Action action) {
+public String doAction(Action action) {
     switch (action) {
         case Eat eat: {
             return eat.dinner()

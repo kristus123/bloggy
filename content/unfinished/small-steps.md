@@ -17,8 +17,8 @@ the biggest reason he failed was because [I failed to guide him properly](/conte
 One might think that by doing nothing, you will never complete anything,
 so you have to do something or else you will never progress.
 
-But what if you complete everything while your mind is in a state of disorder? You are walking blindly,
-hoping you are going the right direction.
+But what if you complete everything while your mind is in a state of disorder?
+You are walking blindly, hoping you are going the right direction.
 
 The solution will work? Who knows, you won't have any idea whether it works or not because you have not been solving the task,
 you have only gambled that it will work. It is only when you test it that you find bugs and errors that will eat your time and make you consider selling hot-dogs for a living instead.

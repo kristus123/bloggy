@@ -1,8 +1,8 @@
 ---
-title: DRAFT!
-description: DRAFT!
+title: Theory building
+description: What your job is actually about
 tags: ['design', "implementation", 'architecture']
-coverImage: https://picsum.photos/600/400
+coverImage: https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pdfemalenudebatch1-012-gloy_3.jpg?w=1000&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=324c4f36f8bb805de71737a95c7bfb5c
 readButton: Curious?
 pathPrefix: blogs
 readable: true

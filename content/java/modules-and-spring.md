@@ -1,5 +1,5 @@
 ---
-title: Java 9 modules and Spring
+title: Modular Java application with Spring
 description: Set up a modularized monolith with a Spring service 
 tags: ['fruit', 'microservices']
 readButton: Encapsulation FTW

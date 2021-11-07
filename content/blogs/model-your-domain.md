@@ -1,8 +1,8 @@
 ---
-title: DRAFT!
-description: DRAFT!
+title: Model your domain
+description: And take advantage of your compiler
 tags: ['design', "implementation", 'architecture']
-coverImage: https://picsum.photos/600/400
+coverImage: https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pd21-021999-375a-job586.jpg?w=1000&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=c6b1b8baf720594ad7e8c24a7e5eb57e
 readButton: Curious?
 pathPrefix: blogs
 readable: true
