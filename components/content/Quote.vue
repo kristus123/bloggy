@@ -13,7 +13,15 @@
         - {{ person }}
       </p>
       <p
-        v-if="source != null"
+        v-if="source != null && url != null"
+        style="font-size: 15px"
+        class="font-weight-light ma-0 pa-0 text-right mt-4"
+      >
+        <v-icon large color="orange darken-2">{{ icon }}</v-icon>
+       <a :href="url">- {{source}}</a>
+      </p>
+      <p
+        v-else-if="source != null"
         style="font-size: 15px"
         class="font-weight-thin ma-0 pa-0 text-right mt-4"
       >
@@ -28,7 +36,7 @@
 </template>
 <script>
 export default {
-  props: ["quote", "person", "source", "icon"],
+  props: ["quote", "person", "source", "icon", "url"],
 };
 </script>
 
