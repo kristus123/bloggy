@@ -1,0 +1,14 @@
+<template>
+  <v-app style="background: #f2f2f2">
+    <v-main>
+      <v-container style="max-width: 75rem">
+        <center>
+          <nuxt-link v-if="$route.path != '/'" to="/">
+            <v-btn small color="orange" text>home</v-btn>
+          </nuxt-link>
+        </center>
+        <Nuxt />
+      </v-container>
+    </v-main>
+  </v-app>
+</template>

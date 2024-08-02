@@ -1,0 +1,76 @@
+.nuxt-content h1 {
+    text-align: center;
+    font-weight:2;
+    font-size: 60px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 20px;
+    border-top: 3px solid orangered;
+    border-bottom: 3px solid orangered;
+    word-wrap: break-word;
+}
+
+.nuxt-content h2 {
+    word-wrap: break-word;
+font-weight:lighter;
+font-size: 28px;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.nuxt-content h3 {
+    word-wrap: break-word;
+font-weight:lighter;
+font-size: 22px;
+margin-top: 50px;
+margin-bottom: 35px;
+}
+.nuxt-content h4 {
+word-wrap: break-word;
+font-weight:lighter;
+font-size: 18px;
+margin-top: 25px;
+margin-bottom: 10px;
+}
+.nuxt-content p {
+margin-top:20px;
+font-size: 18px;
+}
+
+.nuxt-content em {
+    font-weight:lighter;
+}
+
+
+.nuxt-content li::marker {
+    color: red;
+    font-size: 20px;
+}
+
+.nuxt-content li {
+    list-style-type: "- ";
+    padding-left: 10px;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.nuxt-content ul {
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.nuxt-content img {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.nuxt-content iframe {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
