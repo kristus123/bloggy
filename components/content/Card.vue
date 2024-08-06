@@ -6,6 +6,7 @@
           <div class="mt-5 mb-4"></div>
 
           <v-img
+		  v-if="page.coverImage"
           height="10"
           :src="`${page.coverImage}`"
           class="align-end"
