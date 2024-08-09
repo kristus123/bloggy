@@ -10,6 +10,8 @@ readable: true
 
 1. have `git bash` installed
 
+**NB!** you have to use the email associated with your github, or else you will get error.
+
 ```
 ssh-keygen -t ed25519 -C "your email"
 ```
