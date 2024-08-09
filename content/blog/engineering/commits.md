@@ -9,6 +9,7 @@ readable: true
 ![iamdeveloper](https://i.gyazo.com/6fbc516a2843c7678248ccf7849a2abd.png)
 
 ## Benefits of small commits
+
 - easier to understand
 - easier to write commit messages
 - earlier feedback
@@ -18,14 +19,17 @@ readable: true
 - Speeds up product development
 
 ## What commits should achieve
+
 - Should be revertable
 - Should clearly indicate what and why something has changed
 
 ## Commit size
+
 - The shorter time it takes to review code, the quicker it can be merged with master
 - 250+ lines statistically take **1+ hour** to review
 - Several studies show that it is harder to find bugs when reviewing a lot of code
 
 ## Other reasons for keeping it small 
+
 - Quality of deliveries is directly related to the size of Pull Requests
 - Lead Time is directly related to the size of Pull Requests
