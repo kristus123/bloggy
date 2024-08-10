@@ -7,6 +7,7 @@ description: swag
 - tekst
 
 
-<content-table :headers="['tiss', 'tass']" :rows="[
+<content-table :headers="['tiss', 'tass',]" :rows="[
 	['blisj', 'blasj'],
+	['splosj', 'tosj'],
 ]"></content-table>
