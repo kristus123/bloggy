@@ -18,6 +18,6 @@ Through many iterations, this is what happened:
 
 ## 2.0
 
+- 2 hour limit on computer
 - Start using a traditional phone
 	- Give phone to my friend so i don't have my smart-phone
-- 2 hour limit on computer
