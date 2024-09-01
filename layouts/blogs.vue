@@ -1,7 +1,7 @@
 <template>
   <v-app style="background: #f2f2f2">
     <v-main>
-      <v-container style="max-width: 70rem">
+      <v-container style="max-width: 60rem">
         <center>
           <nuxt-link to="/">
             <v-btn small color="orange" text>home</v-btn>
