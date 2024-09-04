@@ -4,6 +4,7 @@ description: swag
 ---
 
 The goal is to relive the need for dicipline and willpower.
+The solution does not need to be perfect, as long as it works 95% of the time, it is more than enough to provide substantial results.
 
 Through a few iterations, this is what happened:
 
