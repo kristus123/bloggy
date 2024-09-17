@@ -2,17 +2,15 @@
 title: Who am I
 description: A cool guy?
 technologies: []
-image: "/public/smil.jpg"
+image: ""
 year: ""
 workPlace: freelance
 ---
 
 I enjoy:
 
+- Programming 
 - Exercising 
 - Hiking 
-- Programming 
 - Making music 
 - Reading
-
-I am also a big fan of philosophy.

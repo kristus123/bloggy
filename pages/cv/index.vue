@@ -22,12 +22,6 @@
          <img class="pt-10" style="max-width:100%; height:auto;" src="/public/fall.jpg" />
       </center>
 
-	  /* <CvParallax /> */
-
-      /* <center> */
-         /* <img class="pt-10" style="max-width:100%; height:auto;" src="/public/fall.jpg" /> */
-      /* </center> */
-
     </div>
   </center>
 </template>

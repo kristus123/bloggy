@@ -1,43 +1,57 @@
 <template>
-  <div class="video-container">
-    <video class="video" src="/public/video.mp4" autoplay muted loop></video>
-  </div>
+  <center>
+    <div :style="{ width: width, height: height }">
+      <video class="video" :src="src" autoplay muted loop></video>
+    </div>
+  </center>
 </template>
 
 <script>
 export default {
+  props: {
+  	src: {
+      type: String,
+      default: "/public/hopp_i_vannet.mp4"  
+	},
+    width: {
+      type: String,
+      default: '100%' 
+    },
+    height: {
+      type: String,
+      default: '40vh' 
+    },
+    speed: {
+      type: Number,
+      default: 1 
+    },
+    start: {
+      type: Number,
+      default: 0 
+    },
+  },
   mounted() {
-    window.addEventListener('scroll', this.handleScroll);
+	const video = this.$el.querySelector('.video');
+	video.playbackRate = this.speed; // Set playback rate to 50% of normal speed
 
-    const video = this.$el.querySelector('.video');
-	video.playbackRate = 0.5; // Set playback rate to 50% of normal speed
-  },
-  beforeDestroy() {
-    window.removeEventListener('scroll', this.handleScroll);
-  },
-  methods: {
-    handleScroll() {
-      const scrollPosition = window.scrollY * 0.2 + 600
-      const video = this.$el.querySelector('.video');
-      video.style.transform = `translateY(-${scrollPosition}px)`;
-    }
-  }
-}
-</script>
+	video.addEventListener('loadedmetadata', () => {
+		video.currentTime = this.start;
+	});
+
+	video.addEventListener('ended', () => {
+		video.currentTime = this.start;
+	});
+	  },
+	}
+	</script>
 
 <style scoped>
-.video-container {
-  overflow: hidden;
-  position: relative;
-  width: 100%; 
-  height: 400px; 
-}
-
-.video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
-}
+	.video {
+	  position: relative;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%; /* Ensure the video covers the container */
+	  object-fit: cover; /* Crop video to fill container */
+	}
 </style>

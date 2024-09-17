@@ -45,13 +45,6 @@ because it doesn't have to worry about keeping track of absolutely everything in
 
 There is a big quality of life improvement by keeping track of everything you need to do.
 
-## Become stress-free
-
-The reason you stress is because there is so much to do.
-There is only 24 hours in a day, so there is a limit on how much you can do every day.
-
-Change your idea about what it means to be productive!
-
 <read-more text="Read about some tools I have made">
 
 ## The vault
