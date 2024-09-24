@@ -14,3 +14,6 @@ I enjoy:
 - Hiking 
 - Making music 
 - Reading
+
+I am a creative and quite cheerful guy who likes to talk to people.
+// legge til hvordan jeg er som kollega

@@ -6,11 +6,7 @@ readButton: Curious?
 readable: true
 ---
 
-## The work at DNB, and what I did
-
-```
-// Todo write more here
-```
+The work at DNB, and what I did
 
 ## The beginning
 
@@ -47,7 +43,7 @@ After a while It was obvious that it was time for change.
 <content-quote quote="Work is supposed to be fun!" person="JJ" source="Coworker" icon="mdi-account">
 </content-quote>
 
-This quote from a coworker was quite inspirational, and made the decision even easier to make.
+This quote from my coworker was quite impactful, and made the decision even easier to make.
 
 I decided to quit my job in order to focus on other things.
 My goals were to get into the habit of exercising, learn new skills, and enjoy life.

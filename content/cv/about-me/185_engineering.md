@@ -15,3 +15,4 @@ I consider myself a highly experienced and knowledgeable person.
 - Working in large systems 
 - Digging for golden nuggets of wisdom for a long time
 - Going deep into what it means to write *"good"* code
+- planning and prioritizing

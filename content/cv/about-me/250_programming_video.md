@@ -2,7 +2,7 @@
 title: ''
 description: ''
 technologies: []
-image: "/public/smil.jpg"
+image: ""
 year: ""
 workPlace: freelance
 html: true
