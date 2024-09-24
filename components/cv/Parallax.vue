@@ -47,11 +47,9 @@ export default {
 
 <style scoped>
 	.video {
-	  position: relative;
-	  top: 0;
-	  left: 0;
 	  width: 100%;
 	  height: 100%; /* Ensure the video covers the container */
 	  object-fit: cover; /* Crop video to fill container */
+	  display: block; /* Prevent inline elements from causing extra spacing */
 	}
 </style>
