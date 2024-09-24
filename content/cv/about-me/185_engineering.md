@@ -16,3 +16,5 @@ I consider myself a highly experienced and knowledgeable person.
 - Digging for golden nuggets of wisdom for a long time
 - Going deep into what it means to write *"good"* code
 - planning and prioritizing
+
+Time is a resource, and the goal is to be able to spend as little time on something with as little friction as possible.

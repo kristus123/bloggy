@@ -7,7 +7,10 @@ year: ""
 workPlace: freelance
 ---
 
-I've spent many years reading and testing out different approaches and my daily life is heavily influenced by the methods and philosophy of these principles.
+I've spent many years reading and testing out different approaches in a professional setting and at home,
+with my daily being heavily influenced by the methods and philosophy of these principles.
+
+Because of this, I consider myself a highly experienced person in this field.
 
 <ReadMore text="read more">
 

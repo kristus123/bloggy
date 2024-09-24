@@ -10,6 +10,8 @@ image: https://im.nilzan.com/i/cIQWp/fBUb.jpg
 Customer support, server maintainance and helping people with technical problems.
 I learned a lot during my internship.
 
+- Solving multiple tickets every day
+
 <ReadMore text="Attest">
 
 ![proof](/public/images/education/askoy_kommune_tjenestetid_fra_2017_til_2019.jpeg)

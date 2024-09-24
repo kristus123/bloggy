@@ -27,5 +27,4 @@ I miss programming on bigger projects.
 
 Even though i still program on my own stuff every day, it is not the same as working in a more professional setting.
 
-
 </ReadMore>

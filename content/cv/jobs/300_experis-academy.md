@@ -9,8 +9,13 @@ image: https://media-exp1.licdn.com/dms/image/C560BAQHO1aYjKG3eFA/company-logo_2
 
 ## Graduate program for people with a completed education
 
-After 3 months of training in Oslo, I started working in DNB.
+At this camp we were taught:
 
+- 5 frontend and backend frameworks
+- Programming principles
+- How to work together on a large project
+
+After 3 months of training in Oslo, I started working in DNB.
 
 <ReadMore text="Read more about this story">
 
