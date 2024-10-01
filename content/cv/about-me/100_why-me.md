@@ -7,4 +7,4 @@ year: ""
 workPlace: freelance
 ---
 
-i am software man 123
+I live by the engineering principles and a truly structured person.
