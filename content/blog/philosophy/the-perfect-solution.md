@@ -6,6 +6,8 @@ readButton: Curious?
 readable: true
 ---
 
+This is Taoism logic.
+
 In chaos there is order, and in order exists chaos.
 
 There will always be chaos. It is needed.
