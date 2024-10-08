@@ -7,4 +7,7 @@ year: ""
 workPlace: freelance
 ---
 
-I live by the engineering principles and a truly structured person.
+I live and die by the engineering principles and I am truly structured person.
+
+
+Also I am the coolest person in the world.

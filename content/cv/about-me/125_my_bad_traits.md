@@ -13,24 +13,14 @@ These are the most unhealthy habit I have, and every day I have to be very mindf
 ## An insane focus
 
 Being focused for hours is a bad thing.
-I am using [this software](https://getcoldturkey.com) to make it eaiser for me to take breaks.
+I am using a tool called [Cold Turkey](https://getcoldturkey.com) to make it eaiser for me to keep track of time and take breaks
 
-*If you are curious, you can read more about how i use [Cold Turkey](/content/experiments/how-i-use-cold-turkey).*
+## I have high expectations of myself
 
-## High expectations of myself
 
 I am really jealous of my friend who is contempt in life.
 For me, every day is a day to improve.
 
-I am working on being more relaxed.
+I am working on being more relaxed in this area of life.
 
-<read-more text="An example from work">
-
-## An example from work
-
-at DNB, there was one process which was so terrible and meaningless that it was a big motivation to quit my job.
-If something is bad for no reason, I have a hard time accepting it.
-
-This is something I have been thinking about a lot, and probably stems from me being impatient in certain areas.
-
-</read-more>
+One way I want to achieve this inner peace is by becoming a true philosopher.

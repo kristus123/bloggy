@@ -30,7 +30,5 @@ Hopefully I even forgot some wisdom which later can be reclaimed from a new pers
 
 # Not at all
 
-The biggest excitement I have had in this field is when I learn something new and groundbreaking that changes my beliefs and ideas about software.
-
 </read-more>
 

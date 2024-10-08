@@ -7,11 +7,6 @@
         <v-icon color="orange darken-2" class="ml-0">mdi-calendar</v-icon>
       </p>
 
-      <p class="mb-4">
-        And I (still) have a <strong>plant</strong>
-        <v-icon color="green" class="ml-0">mdi-flower</v-icon>
-      </p>
-
       <MyHr class="my-12" />
     </center>
 

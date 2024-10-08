@@ -11,6 +11,7 @@ Customer support, server maintainance and helping people with technical problems
 I learned a lot during my internship.
 
 - Solving multiple tickets every day
+- helping every person working in Askøy Kommune with their PC/tech problems
 
 <ReadMore text="Attest">
 

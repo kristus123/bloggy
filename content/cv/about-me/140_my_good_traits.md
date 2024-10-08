@@ -7,8 +7,6 @@ year: ""
 workPlace: freelance
 ---
 
-Very accurate and high precision.
-
-I am good at seeing the bigger picture when working in a project
-
-Good at planning all the steps that are needed to achieve something.
+- Very accurate and high precision in my work
+- Good at seeing the bigger picture
+- Good at planning all the steps that are needed to achieve something

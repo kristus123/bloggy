@@ -15,5 +15,5 @@ I enjoy:
 - Making music 
 - Reading
 
-I am a creative and quite cheerful guy who likes to talk to people.
-And probably the only true philosopher you have met.
+I am a creative and cheerful person who enjoys to talking to people.
+Also I am a philosopher in training.

@@ -19,6 +19,8 @@ After 3 months of training in Oslo, I started working in DNB.
 
 <ReadMore text="Read more about this story">
 
+## Story
+
 Originally i applied directly to 'Experis Academy',
 but was declined as I did not have higher education.
 Their reasons for not wanting to hire me were understandable.

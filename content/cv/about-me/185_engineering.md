@@ -13,8 +13,8 @@ I consider myself a highly experienced and knowledgeable person.
 
 - Testing out different patterns and principles in theory and in production and understanding their pros and cons
 - Working in large systems 
-- Digging for golden nuggets of wisdom for a long time
-- Going deep into what it means to write *"good"* code
-- planning and prioritizing
+- Researching vigorously into what it means to write *"good"* code
+- a good eye for planning and prioritizing
 
-Time is a resource, and the goal is to be able to spend as little time on something with as little friction as possible.
+
+The biggest excitement I have had in this field is when I learn something that changes my beliefs and ideas about software.
