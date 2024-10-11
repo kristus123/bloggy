@@ -7,6 +7,10 @@ year: 2021
 workPlace: DNB
 ---
 
-Fikk mulighet til å ha en virtuell klassetime *(Husker ikke hvilken skole)*.
+Fikk mulighet til å ha en virtuell klassetime via DNB.
 
-Da snakket jeg om API-er og hva som er viktige ferdigheter hos en utvikler.
+Da snakket jeg om:
+- API
+- hva som er viktige ferdigheter hos en utvikler
+
+*(Husker ikke hvilken skole)*

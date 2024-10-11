@@ -9,5 +9,4 @@ workPlace: askøy kommune
 
 Under fagprøven lagde jeg et responsivt og "lett å bruke" ticket-system. 
 
-Inspirasjonen var fra Ticket-systemet
-som var i bruk i Kommunen. Jeg fokuserte på å gjøre funksjonaliteten som ble daglit brukt så lettvinte som mulig å utføre.
+Inspirasjonen var fra Ticket-systemet som var i bruk i Kommunen. Jeg fokuserte på å gjøre funksjonaliteten som ble daglit brukt så lettvinte som mulig å utføre.
