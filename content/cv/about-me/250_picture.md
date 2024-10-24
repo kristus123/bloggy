@@ -1,6 +1,6 @@
 ---
-title: ''
-description: ''
+title: '"CSS er kjempekult"'
+description: '-8 år gamle meg'
 technologies: []
 image: ""
 year: ""
