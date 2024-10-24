@@ -1,5 +1,5 @@
 ---
-title: A break from working 9-5
+title: A break from work
 color: blue darken-2
 position: Epic
 year: 2023-now

@@ -51,6 +51,15 @@ There is a big quality of life improvement by keeping track of everything you ne
 
 I have made my own todo app and reminder app which makes it even easier for me to keep track of everything.
 
+I also combine digital tools with traditional tools.
+
+## Pen and paper
+
+I have experimented with using both pen and paper and apps to keep track of everything,
+and from my experience I think you can use both in a combination for the best result.
+
+![text](/public/todo_notes.jpg)
+
 <read-more text="Book recommendation">
 
 # Books to recommend
@@ -60,5 +69,6 @@ During my time at DNB, I read the book **"The art of stress-free productivity"**
 ![Cover of GTD book](https://gyazo.com/3ac5e77bac5f82a550d3e8e4fcd451d1.png)
 
 My first thought was "this is an old book", but the content is timeless and definitely worth reading.
+
 
 </read-more>
