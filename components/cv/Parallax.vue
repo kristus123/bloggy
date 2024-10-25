@@ -1,7 +1,7 @@
 <template>
   <center>
-    <div :style="{ width: width, height: height }">
-      <video preload="auto" class="video" :src="src" autoplay muted loop></video>
+    <div>
+      <video preload="auto" class="video" :src="src" :style="{ maxWidth: width, height: height }"autoplay muted loop></video>
     </div>
   </center>
 </template>

@@ -24,7 +24,7 @@ I am working on being more relaxed in this area of life.
 
 One way I want to achieve this inner peace is by becoming a true philosopher.
 
-<read-more text="Some unusual things I do">
+<read-more text="fun fact">
 
 # I block the entire internet*
 

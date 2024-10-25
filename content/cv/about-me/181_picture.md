@@ -8,4 +8,4 @@ workPlace: freelance
 html: true
 ---
 
-<img src="/public/dnb/cool_gang.jpg" style="max-width:800px" />
+<!-- <img src="/public/dnb/cool_gang.jpg" style="max-width:800px" /> -->
