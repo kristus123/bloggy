@@ -12,7 +12,10 @@ readable: true
 
 Du skrev:
 
+```js
 let sayHello = Hello
+```
+
 MEN, dette er feil. hva er feil?
 
 <details>
@@ -21,7 +24,10 @@ MEN, dette er feil. hva er feil?
 
 HUSK QUOTATIONS
 
+
+```js
 let sayHello = "Hello"
+```
 
 </details>
 
